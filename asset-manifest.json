@@ -1,14 +1,14 @@
 {
-  "main.css": "/shsp/static/css/main.1372ebb1.chunk.css",
-  "main.js": "/shsp/static/js/main.9830c679.chunk.js",
-  "main.js.map": "/shsp/static/js/main.9830c679.chunk.js.map",
+  "main.css": "/shsp/static/css/main.f42428cd.chunk.css",
+  "main.js": "/shsp/static/js/main.759c5979.chunk.js",
+  "main.js.map": "/shsp/static/js/main.759c5979.chunk.js.map",
   "runtime~main.js": "/shsp/static/js/runtime~main.4cef3658.js",
   "runtime~main.js.map": "/shsp/static/js/runtime~main.4cef3658.js.map",
-  "static/js/2.d2b4789b.chunk.js": "/shsp/static/js/2.d2b4789b.chunk.js",
-  "static/js/2.d2b4789b.chunk.js.map": "/shsp/static/js/2.d2b4789b.chunk.js.map",
+  "static/js/2.38ab1101.chunk.js": "/shsp/static/js/2.38ab1101.chunk.js",
+  "static/js/2.38ab1101.chunk.js.map": "/shsp/static/js/2.38ab1101.chunk.js.map",
   "index.html": "/shsp/index.html",
-  "precache-manifest.723ab22cbeb82707056c69de689a2b88.js": "/shsp/precache-manifest.723ab22cbeb82707056c69de689a2b88.js",
+  "precache-manifest.d8a55c9968966bc4ae421b5c66907a8c.js": "/shsp/precache-manifest.d8a55c9968966bc4ae421b5c66907a8c.js",
   "service-worker.js": "/shsp/service-worker.js",
-  "static/css/main.1372ebb1.chunk.css.map": "/shsp/static/css/main.1372ebb1.chunk.css.map",
+  "static/css/main.f42428cd.chunk.css.map": "/shsp/static/css/main.f42428cd.chunk.css.map",
   "static/media/logo.svg": "/shsp/static/media/logo.5d5d9eef.svg"
 }
