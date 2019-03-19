@@ -10683,7 +10683,18 @@ a:focus {
   background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
   background-size: cover;
 }
-
+.bg-gradient-udot-blue {
+  background-color: #5a87c5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #6666ff), to(#5a87c5));
+  background-image: linear-gradient(180deg, #6666ff 10%, #5a87c5 100%);
+  background-size: cover;
+}
+.bg-gradient-udot-dark {
+  background-color: #343a40;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #515051), to(#343a40));
+  background-image: linear-gradient(180deg, #515051 10%, #343a40 100%);
+  background-size: cover;
+}
 .bg-gradient-success {
   background-color: #1cc88a;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1cc88a), to(#13855c));

@@ -10,7 +10,7 @@ class Sidebar extends Component {
   render() {
     return (
       <ul
-        className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
+        className="navbar-nav bg-gradient-udot-dark sidebar sidebar-dark accordion toggled"
         id="accordionSidebar"
       >
         <NavLink
@@ -18,7 +18,7 @@ class Sidebar extends Component {
           className="sidebar-brand d-flex align-items-center justify-content-center"
         >
           <div className="sidebar-brand-icon rotate-n-15">
-            <i className="fas fa-laugh-wink" />
+            <i className="fas fa-road" />
           </div>
           <div className="sidebar-brand-text mx-3">
             HSSP <sup>5.0</sup>
