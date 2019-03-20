@@ -11,7 +11,7 @@ class Summary extends Component {
         </div>
         <div className="row">
           <div className="col-12 text-center">
-            <img src="/img/mvw.jpg" />
+            <img src="img/mvw.jpg" alt="Mountain View Corridor" />
           </div>
           <div className="col-12">
             <p>

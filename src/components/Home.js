@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div className="row">
         <div className="col-12 text-center">
-          <img src="/img/homepage.jpg" />
+          <img src="img/homepage.jpg" alt="" />
         </div>
       </div>
     );
