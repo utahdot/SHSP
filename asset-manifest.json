@@ -1,14 +1,14 @@
 {
-  "main.css": "/shsp/static/css/main.f42428cd.chunk.css",
-  "main.js": "/shsp/static/js/main.759c5979.chunk.js",
-  "main.js.map": "/shsp/static/js/main.759c5979.chunk.js.map",
-  "runtime~main.js": "/shsp/static/js/runtime~main.4cef3658.js",
-  "runtime~main.js.map": "/shsp/static/js/runtime~main.4cef3658.js.map",
-  "static/js/2.38ab1101.chunk.js": "/shsp/static/js/2.38ab1101.chunk.js",
-  "static/js/2.38ab1101.chunk.js.map": "/shsp/static/js/2.38ab1101.chunk.js.map",
-  "index.html": "/shsp/index.html",
-  "precache-manifest.d8a55c9968966bc4ae421b5c66907a8c.js": "/shsp/precache-manifest.d8a55c9968966bc4ae421b5c66907a8c.js",
-  "service-worker.js": "/shsp/service-worker.js",
-  "static/css/main.f42428cd.chunk.css.map": "/shsp/static/css/main.f42428cd.chunk.css.map",
-  "static/media/logo.svg": "/shsp/static/media/logo.5d5d9eef.svg"
+  "main.css": "/SHSP/static/css/main.f42428cd.chunk.css",
+  "main.js": "/SHSP/static/js/main.2f4a2276.chunk.js",
+  "main.js.map": "/SHSP/static/js/main.2f4a2276.chunk.js.map",
+  "runtime~main.js": "/SHSP/static/js/runtime~main.0b7a3f8a.js",
+  "runtime~main.js.map": "/SHSP/static/js/runtime~main.0b7a3f8a.js.map",
+  "static/js/2.38ab1101.chunk.js": "/SHSP/static/js/2.38ab1101.chunk.js",
+  "static/js/2.38ab1101.chunk.js.map": "/SHSP/static/js/2.38ab1101.chunk.js.map",
+  "index.html": "/SHSP/index.html",
+  "precache-manifest.302a15bda24ea8b8ab8e81ef1450e08a.js": "/SHSP/precache-manifest.302a15bda24ea8b8ab8e81ef1450e08a.js",
+  "service-worker.js": "/SHSP/service-worker.js",
+  "static/css/main.f42428cd.chunk.css.map": "/SHSP/static/css/main.f42428cd.chunk.css.map",
+  "static/media/logo.svg": "/SHSP/static/media/logo.5d5d9eef.svg"
 }
