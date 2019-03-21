@@ -8,7 +8,7 @@ class Topbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand navbar-light bg-gradient-udot-dark topbar mb-4 static-top shadow">
+      <nav className="navbar navbar-expand navbar-light bg-gradient-udot-dark topbar static-top shadow">
         <div className="container-fluid">
           <button
             id="sidebarToggleTop"
@@ -31,18 +31,21 @@ class Topbar extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://udot.utah.gov">
                   UDOT Home
                   <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="https://udot.utah.gov/stragegic-direction"
+                >
                   UDOT Strategic Direction
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://udot.utah.gov/dashboard">
                   UDOT Dashboard
                 </a>
               </li>

@@ -16,12 +16,7 @@ class App extends Component {
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <Topbar />
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-12">
-                  <h1 className="text-center">Strategic Highway Safety Plan</h1>
-                </div>
-              </div>
+            <div>
               <div className="content">
                 <Route exact path="/" component={Home} />
                 <Route path="/summary" component={Summary} />
