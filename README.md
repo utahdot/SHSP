@@ -6,13 +6,9 @@ Head over to your github directory and run:
 This will clone the repo. When that is done cd into shsp.. If for some reason the package-lock.json file
 exists then delete it. Now run:
 
-## `npm install dependendies --save`
-
-When that is done then run:
-
 ## `npm install --save`
 
-Lastly run:
+Next run:
 
 ## `npm audit fix`
 
