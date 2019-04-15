@@ -1,6 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Get started..
+Head over to your github directory and run:
 
-## Available Scripts
+## `git clone https://github.com/leonelnieto/SHSP.git`
+
+This will clone the repo. When that is done cd into shsp.. If for some reason the package-lock.json file
+exists then delete it. Now run:
+
+## `npm install dependendies --save`
+
+When that is done then run:
+
+## `npm install --save`
+
+Lastly run:
+
+## `npm audit fix`
 
 In the project directory, you can run:
 

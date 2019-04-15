@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
+import Emphasis from "./components/Emphasis";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -21,6 +22,7 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route path="/summary" component={Summary} />
                 <Route path="/content2" component={Content2} />
+                <Route path="/emphasis" component={Emphasis} />
               </div>
             </div>
           </div>

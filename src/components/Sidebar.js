@@ -33,32 +33,10 @@ class Sidebar extends Component {
         </li>
         <hr className="sidebar-divider" />
         <li className="nav-item">
-          <a
-            className="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapseTwo"
-            aria-expanded="true"
-            aria-controls="collapseTwo"
-          >
+          <NavLink className="nav-link" to="/SafetyLeadership" >
             <i className="fas fa-fw fa-cog" />
             <span>Safety Leadership</span>
-          </a>
-          <div
-            id="collapseTwo"
-            className="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionSidebar"
-          >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <a className="collapse-item" href="buttons.html">
-                Buttons
-              </a>
-              <a className="collapse-item" href="cards.html">
-                Cards
-              </a>
-            </div>
-          </div>
+          </NavLink>
         </li>
         <li className="nav-item">
           <a
@@ -100,56 +78,22 @@ class Sidebar extends Component {
         <hr className="sidebar-divider" />
         <div className="sidebar-heading">Safety Areas</div>
         <li className="nav-item">
-          <a
-            className="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapsePages"
-            aria-expanded="true"
-            aria-controls="collapsePages"
-          >
+          <NavLink className="nav-link collapsed" to="/emphasis">
             <i className="fas fa-fw fa-folder" />
             <span>Emphasis</span>
-          </a>
-          <div
-            id="collapsePages"
-            className="collapse"
-            aria-labelledby="headingPages"
-            data-parent="#accordionSidebar"
-          >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <h6 className="collapse-header">Login Screens:</h6>
-              <a className="collapse-item" href="login.html">
-                Login
-              </a>
-              <a className="collapse-item" href="register.html">
-                Register
-              </a>
-              <a className="collapse-item" href="forgot-password.html">
-                Forgot Password
-              </a>
-              <div className="collapse-divider" />
-              <h6 className="collapse-header">Other Pages:</h6>
-              <a className="collapse-item" href="404.html">
-                404 Page
-              </a>
-              <a className="collapse-item" href="blank.html">
-                Blank Page
-              </a>
-            </div>
-          </div>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="charts.html">
+          <NavLink className="nav-link" to="/continuing">
             <i className="fas fa-fw fa-chart-area" />
             <span>Continuing</span>
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="tables.html">
+          <NavLink className="nav-link" to="/special">
             <i className="fas fa-fw fa-table" />
             <span>Special</span>
-          </a>
+          </NavLink>
         </li>
         <hr className="sidebar-divider d-none d-md-block" />
         <div className="text-center d-none d-md-inline">

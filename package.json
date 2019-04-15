@@ -4,12 +4,13 @@
   "private": true,
   "homepage": "https://leonelnieto.github.io/SHSP",
   "dependencies": {
+    "dependencies": "0.0.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-router-dom": "^4.4.0",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-video-tag": "0.0.10",
     "video-react": "^0.13.6"
