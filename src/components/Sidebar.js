@@ -33,67 +33,53 @@ class Sidebar extends Component {
         </li>
         <hr className="sidebar-divider" />
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership" >
+          <NavLink className="nav-link" to="/SafetyLeadership">
             <i className="fas fa-fw fa-cog" />
             <span>Safety Leadership</span>
           </NavLink>
         </li>
         <li className="nav-item">
-          <a
-            className="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapseUtilities"
-            aria-expanded="true"
-            aria-controls="collapseUtilities"
-          >
-            <i className="fas fa-fw fa-wrench" />
+          <NavLink className="nav-link" to="/SafetyLeadership">
+            <i className="fas fa-fw fa-project-diagram" />
             <span>Five E's</span>
-          </a>
-          <div
-            id="collapseUtilities"
-            className="collapse"
-            aria-labelledby="headingUtilities"
-            data-parent="#accordionSidebar"
-          >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <a className="collapse-item" href="utilities-color.html">
-                Engineering
-              </a>
-              <a className="collapse-item" href="utilities-border.html">
-                Enforcement
-              </a>
-              <a className="collapse-item" href="utilities-animation.html">
-                Education
-              </a>
-              <a className="collapse-item" href="utilities-other.html">
-                Emergency Response
-              </a>
-              <a className="collapse-item" href="utilities-other.html">
-                Everyone
-              </a>
-            </div>
-          </div>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/SafetyLeadership">
+            <i className="fas fa-fw fa-clipboard-check" />
+            <span>Evaluation</span>
+          </NavLink>
         </li>
         <hr className="sidebar-divider" />
         <div className="sidebar-heading">Safety Areas</div>
         <li className="nav-item">
-          <NavLink className="nav-link collapsed" to="/emphasis">
-            <i className="fas fa-fw fa-folder" />
-            <span>Emphasis</span>
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/continuing">
-            <i className="fas fa-fw fa-chart-area" />
-            <span>Continuing</span>
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/special">
-            <i className="fas fa-fw fa-table" />
-            <span>Special</span>
-          </NavLink>
+          <a
+            className="nav-link collapses"
+            href="#"
+            data-toggle="collapse"
+            data-target="#safetyAreas"
+            aria-expanded="false"
+            area-controls="safetyAreas"
+          >
+            <i className="fas fa-fw fa-cog" />
+            <span>Safety Areas</span>
+          </a>
+          <div
+            id="safetyAreas"
+            className="collapse"
+            aria-labelledby="SafetyAreas"
+            data-parent="#accordionSidebar"
+          >
+            <div className="bg-white py-2 collapse-inner rounded">
+              <h6 className="collapse-header">Safety Areas</h6>
+              <NavLink className="collapse-item" to="/emphasis">
+                Emphasis
+              </NavLink>
+              <NavLink className="collapse-item" to="/continuing">
+                Continuing
+              </NavLink>
+            </div>
+          </div>
         </li>
         <hr className="sidebar-divider d-none d-md-block" />
         <div className="text-center d-none d-md-inline">
