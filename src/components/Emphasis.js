@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Emphasis extends Component {
   render() {
@@ -25,7 +25,7 @@ class Emphasis extends Component {
               <img
                 className="card-img-top"
                 src="img/aggresive-driving.png"
-                alt="Aggresive Driving Image"
+                alt="Aggresive Driving"
               />
               <div className="card-body">
                 <h5 className="card-title">Aggresive Driving</h5>
@@ -45,7 +45,7 @@ class Emphasis extends Component {
               <img
                 className="card-img-top"
                 src="img/distracted-driving.png"
-                alt="Distracted driving image"
+                alt="Distracted driving"
               />
               <div className="card-body">
                 <h5 className="card-title">Distracted Driving</h5>
@@ -64,7 +64,7 @@ class Emphasis extends Component {
               <img
                 className="card-img-top"
                 src="img/drowsy-driving.png"
-                alt="Driving drowsy image"
+                alt="Driving drowsy"
               />
               <div className="card-body">
                 <h5 className="card-title">Drowsy Driving</h5>
@@ -83,7 +83,7 @@ class Emphasis extends Component {
               <img
                 className="card-img-top"
                 src="img/impaired-driving.png"
-                alt="Check point for impared driving image"
+                alt="Check point for impared driving"
               />
               <div className="card-body">
                 <h5 className="card-title">Impared Driving</h5>
@@ -102,5 +102,4 @@ class Emphasis extends Component {
     );
   }
 }
-
 export default Emphasis;

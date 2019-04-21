@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
@@ -12,7 +12,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
@@ -28,7 +28,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

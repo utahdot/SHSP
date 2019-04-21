@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import $ from "jquery";
 
 class Sidebar extends Component {
@@ -7,6 +7,7 @@ class Sidebar extends Component {
     $("body").toggleClass("sidebar-toggled");
     $(".sidebar").toggleClass("toggled");
   }
+
   render() {
     return (
       <ul
@@ -16,6 +17,7 @@ class Sidebar extends Component {
         <NavLink
           to="/"
           className="sidebar-brand d-flex align-items-center justify-content-center"
+          activeClassName="active"
         >
           <div className="sidebar-brand-icon rotate-n-15">
             <i className="fas fa-road" />
@@ -27,14 +29,14 @@ class Sidebar extends Component {
         <hr className="sidebar-divider my-0" />
         <li className="nav-item active">
           <NavLink className="nav-link" to="/summary">
-            <i className="fas fa-fw fa-tachometer-alt" />
-            <span>Executive Summary</span>
+            <i className="fas fa-fw fa-book-reader" />
+            <span>Excutive Summary</span>
           </NavLink>
         </li>
         <hr className="sidebar-divider" />
         <li className="nav-item">
           <NavLink className="nav-link" to="/SafetyLeadership">
-            <i className="fas fa-fw fa-cog" />
+            <i className="fas fa-fw fa-user-tie" />
             <span>Safety Leadership</span>
           </NavLink>
         </li>
@@ -51,11 +53,10 @@ class Sidebar extends Component {
           </NavLink>
         </li>
         <hr className="sidebar-divider" />
-        <div className="sidebar-heading">Safety Areas</div>
         <li className="nav-item">
           <a
             className="nav-link collapses"
-            href="#"
+            to=""
             data-toggle="collapse"
             data-target="#safetyAreas"
             aria-expanded="false"
@@ -71,7 +72,9 @@ class Sidebar extends Component {
             data-parent="#accordionSidebar"
           >
             <div className="bg-white py-2 collapse-inner rounded">
-              <h6 className="collapse-header">Safety Areas</h6>
+              <NavLink className="collapse-item" to="/safetyAreas">
+                Safety Areas
+              </NavLink>
               <NavLink className="collapse-item" to="/emphasis">
                 Emphasis
               </NavLink>
@@ -93,5 +96,4 @@ class Sidebar extends Component {
     );
   }
 }
-
-export default Sidebar;
+export default withRouter(Sidebar);
