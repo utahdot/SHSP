@@ -12543,10 +12543,12 @@ header .overlay {
     display: none;
   }
 }
+
 .w-60 {
   width: 60%;
   margin: 0 20% 0 20%;
 }
-#safetyAreas {
-  z-index: 5;
+
+.force-top {
+  z-index: 1000000 !important;
 }
