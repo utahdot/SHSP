@@ -23,7 +23,7 @@ class Sidebar extends Component {
             <i className="fas fa-road" />
           </div>
           <div className="sidebar-brand-text mx-3">
-            HSSP <sup>5.0</sup>
+            SHSP <sup>5.0</sup>
           </div>
         </NavLink>
         <hr className="sidebar-divider my-0" />
