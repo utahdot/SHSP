@@ -27,7 +27,7 @@ class Sidebar extends Component {
           </div>
         </NavLink>
         <hr className="sidebar-divider my-0" />
-        <li className="nav-item active">
+        <li className="nav-item">
           <NavLink className="nav-link" to="/summary">
             <i className="fas fa-fw fa-book-reader" />
             <span>Excutive Summary</span>
