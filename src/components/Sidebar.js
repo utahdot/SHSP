@@ -35,19 +35,19 @@ class Sidebar extends Component {
         </li>
         <hr className="sidebar-divider" />
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <NavLink className="nav-link" to="/safetyleadership">
             <i className="fas fa-fw fa-user-tie" />
             <span>Safety Leadership</span>
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <NavLink className="nav-link" to="/safetyleadership">
             <i className="fas fa-fw fa-project-diagram" />
             <span>Five E's</span>
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <NavLink className="nav-link" to="/safetyleadership">
             <i className="fas fa-fw fa-clipboard-check" />
             <span>Evaluation</span>
           </NavLink>

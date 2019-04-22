@@ -7,6 +7,7 @@ import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
 import Emphasis from "./components/Emphasis";
 import Emphasis_Aggresive from "./components/emphasis/Aggresive";
+import SafetyLeadership from "./components/SafetyLeadership";
 import "./App.css";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
                 <Route path="/content2" component={Content2} />
                 <Route path="/emphasis" component={Emphasis} />
                 <Route path="/aggresive" component={Emphasis_Aggresive} />
+                <Route path="/safetyleadership" component={SafetyLeadership} />
               </div>
             </div>
           </div>
