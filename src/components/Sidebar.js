@@ -52,7 +52,7 @@ class Sidebar extends Component {
           </a>
           <div
             id="collapseUtilities"
-            className="collapse"
+            className="collapse force-top"
             aria-labelledby="headingUtilities"
             data-parent="#accordionSidebar"
           >

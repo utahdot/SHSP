@@ -12071,3 +12071,7 @@ header .overlay {
   width: 60%;
   margin: 0 20% 0 20%;
 }
+
+.force-top {
+  z-index: 1000000 !important;
+}
