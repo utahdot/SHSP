@@ -6,7 +6,7 @@ class Summary extends Component {
       <div className="m-5">
         <div className="row">
           <div className="col-12">
-            <h3 className="text-center">Executive Summary</h3>
+            <h1 className="text-center">Executive Summary</h1>
           </div>
         </div>
         <div className="row">
