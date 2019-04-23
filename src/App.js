@@ -27,7 +27,7 @@ class App extends Component {
                 <Route path="/emphasis" component={Emphasis} />
                 <Route path="/aggresive" component={Emphasis_Aggresive} />
                 <Route path="/safetyleadership" component={SafetyLeadership} />
-              <Route path="/evaluation" component={Evaluation} />
+                <Route path="/evaluation" component={Evaluation} />
               </div>
             </div>
           </div>
