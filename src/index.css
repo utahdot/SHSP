@@ -11645,6 +11645,7 @@ a:focus {
 }
 
 .sidebar.toggled #sidebarToggle::after {
+  font-weight: 900;
   content: "\f105";
   font-family: "Font Awesome 5 Free";
   margin-left: 0.25rem;

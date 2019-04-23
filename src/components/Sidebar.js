@@ -94,7 +94,7 @@ class Sidebar extends Component {
             area-controls="safetyAreas"
           >
             <i className="fas fa-fw fa-cog" />
-            <span>Safety <br />Areas</span>
+            <span>Safety Areas</span>
           </a>
           <div
             id="safetyAreas"
