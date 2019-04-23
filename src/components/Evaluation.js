@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import SeriousInjuryCrashes from "./charts/SeriousInjuryCrashes";
+import FatalCrashes from "./charts/FatalCrashes";
 
 class Evaluation extends Component {
   render() {
@@ -45,6 +47,18 @@ class Evaluation extends Component {
               on the progress and accomplishments of each
               safety area.
             </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-5 mx-auto">
+            <div>
+              <SeriousInjuryCrashes />
+            </div>
+          </div>
+          <div className="col-5 mx-auto">
+            <div>
+              <FatalCrashes />
+            </div>
           </div>
         </div>
       </div>
