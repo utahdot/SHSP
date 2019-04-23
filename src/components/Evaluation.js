@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import SeriousInjuryCrashes from "./charts/SeriousInjuryCrashes";
 import FatalCrashes from "./charts/FatalCrashes";
-<<<<<<< HEAD
 import ReduceFatalities from "./charts/ReduceFatalities";
-=======
->>>>>>> f77a69cbfb90944401ebc9c8f9842b07c5da9800
 
 class Evaluation extends Component {
   render() {
@@ -53,11 +50,7 @@ class Evaluation extends Component {
             </p>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="row mb-5">
-=======
-        <div className="row">
->>>>>>> f77a69cbfb90944401ebc9c8f9842b07c5da9800
           <div className="col-5 mx-auto">
             <div>
               <SeriousInjuryCrashes />
@@ -69,7 +62,6 @@ class Evaluation extends Component {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="row mb-3">
           <div className="col-12">
             <p>
@@ -100,8 +92,6 @@ class Evaluation extends Component {
             </div>
           </div>
         </div>
-=======
->>>>>>> f77a69cbfb90944401ebc9c8f9842b07c5da9800
       </div>
     );
   }
