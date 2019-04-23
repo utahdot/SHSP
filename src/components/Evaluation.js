@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SeriousInjuryCrashes from "./charts/SeriousInjuryCrashes";
 import FatalCrashes from "./charts/FatalCrashes";
+import ReduceFatalities from "./charts/ReduceFatalities";
 
 class Evaluation extends Component {
   render() {
@@ -11,7 +12,7 @@ class Evaluation extends Component {
             <h1 className="text-center">Evaluation</h1>
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-3">
           <div className="col-12">
             <p>
               Periodic evaluation is a critical element of
@@ -49,7 +50,7 @@ class Evaluation extends Component {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-5 mx-auto">
             <div>
               <SeriousInjuryCrashes />
@@ -58,6 +59,36 @@ class Evaluation extends Component {
           <div className="col-5 mx-auto">
             <div>
               <FatalCrashes />
+            </div>
+          </div>
+        </div>
+        <div className="row mb-3">
+          <div className="col-12">
+            <p>
+              The American Association of State Highway
+              and Transportation Officials’ (AASHTO) mission
+              is to “enable the nation and member states to
+              have a world-class highway network as part
+              of a safe, efficient, and sustainable multimodal transportation system supporting the
+              nation’s economy and quality of life.” One of
+              their objectives to reach their goal is to reduce
+              fatalities by 50% by 2030. That equates to a
+              2.5 percent decrease in fatalities annually.
+            </p>
+            <p>
+              In our quest to reach Zero Fatalities, the State of
+              Utah has adopted the AASHTO goal of reducing
+              fatalities by 2.5 percent per year. The following
+              graph shows how we will reduce fatalities each
+              year as we move towards our ultimate goal of
+              Zero Fatalities.
+            </p>
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col-8 mx-auto">
+            <div>
+              <ReduceFatalities />
             </div>
           </div>
         </div>
