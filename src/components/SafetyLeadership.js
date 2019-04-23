@@ -10,7 +10,7 @@ class SafetyLeadership extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 mb-3 text-center">
+          <div className="col-12 mb-5 text-center">
             <img src="img/mvw.jpg" alt="Mountain View Corridor" />
           </div>
         </div>
@@ -23,8 +23,8 @@ class SafetyLeadership extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-2 offset-2">
-            <ul className="list-unstyled">
+          <div className="col-6 d-flex justify-content-center">
+            <ul>
               <li>Utah Department of Transportation (UDOT)
                 <ul>
                   <li>Motor Carrier Division</li>
@@ -52,8 +52,8 @@ class SafetyLeadership extends Component {
               </li>
             </ul>
           </div>
-          <div className="col-2 offset-4">
-            <ul className="list-unstyled">
+          <div className="col-3 d-flex justify-content-center">
+            <ul>
               <li>AAA Utah</li>
               <li>AARP</li>
               <li>ABATE of Utah</li>
@@ -94,6 +94,10 @@ class SafetyLeadership extends Component {
               </li>
               <li>Safe Kids Utah</li>
               <li>Salt Lake Chamber</li>
+            </ul>
+          </div>
+          <div className="col-3 d-flex justify-content-center">
+            <ul>
               <li>Salt Lake City Transportation Division</li>
               <li>Salt Lake County Health Department Injury Prevention Program</li>
               <li>San Juan Southern Paiute Tribe</li>
@@ -127,7 +131,7 @@ class SafetyLeadership extends Component {
               <li>Ute Indian Tribe</li>
               <li>Ute Mountain Ute Tribe</li>
               <li>White Mesa Community</li>
-              <li>Zero Fatalities</li>            
+              <li>Zero Fatalities</li>
             </ul>
           </div>
         </div>
