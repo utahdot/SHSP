@@ -78,7 +78,7 @@ class Sidebar extends Component {
           </div>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/safetyleadership">
+          <NavLink className="nav-link" to="/evaluation">
             <i className="fas fa-fw fa-clipboard-check" />
             <span>Evaluation</span>
           </NavLink>
