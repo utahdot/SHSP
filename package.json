@@ -16,6 +16,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-scroll": "^1.7.11",
+    "react-scroll-up-button": "^1.6.4",
     "react-video-tag": "0.0.10",
     "video-react": "^0.13.6"
   },
