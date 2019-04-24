@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
 import ScrollUpButton from "./components/ScrollUpButton";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
@@ -15,7 +15,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <>
         <ScrollUpButton />
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
@@ -34,7 +34,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-      </BrowserRouter>
+      </>
     );
   }
 }
