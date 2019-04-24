@@ -23,36 +23,67 @@ class Sidebar extends Component {
             <i className="fas fa-road" />
           </div>
           <div className="sidebar-brand-text mx-3">
-            HSSP <sup>5.0</sup>
+            SHSP <sup>5.0</sup>
           </div>
         </NavLink>
         <hr className="sidebar-divider my-0" />
-        <li className="nav-item active">
+        <li className="nav-item">
           <NavLink className="nav-link" to="/summary">
             <i className="fas fa-fw fa-book-reader" />
             <span>Excutive Summary</span>
           </NavLink>
         </li>
-        <hr className="sidebar-divider" />
+        <hr className="sidebar-divider my-0" />
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <NavLink className="nav-link" to="/safetyleadership">
             <i className="fas fa-fw fa-user-tie" />
             <span>Safety Leadership</span>
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <a
+            className="nav-link collapses"
+            to=""
+            data-toggle="collapse"
+            data-target="#fivees"
+            aria-expanded="false"
+            area-controls="safetyAreas"
+          >
             <i className="fas fa-fw fa-project-diagram" />
             <span>Five E's</span>
-          </NavLink>
+          </a>
+          <div
+            id="fivees"
+            className="collapse force-top"
+            aria-labelledby="FiveEs"
+            data-parent="#accordionSidebar"
+          >
+            <div className="bg-white py-2 collapse-inner rounded">
+              <NavLink className="collapse-item" to="/engineering">
+                Engineering
+              </NavLink>
+              <NavLink className="collapse-item" to="/enforcement">
+                Enforcement
+              </NavLink>
+              <NavLink className="collapse-item" to="/education">
+                Education
+              </NavLink>
+              <NavLink className="collapse-item" to="/emergencyresponse">
+                Emergency Response
+              </NavLink>
+              <NavLink className="collapse-item" to="/everyone">
+                Everyone
+              </NavLink>
+            </div>
+          </div>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/SafetyLeadership">
+          <NavLink className="nav-link" to="/evaluation">
             <i className="fas fa-fw fa-clipboard-check" />
             <span>Evaluation</span>
           </NavLink>
         </li>
-        <hr className="sidebar-divider" />
+        <hr className="sidebar-divider my-0" />
         <li className="nav-item">
           <a
             className="nav-link collapses"
@@ -72,7 +103,7 @@ class Sidebar extends Component {
             data-parent="#accordionSidebar"
           >
             <div className="bg-white py-2 collapse-inner rounded">
-              <NavLink className="collapse-item" to="/safetyAreas">
+              <NavLink className="collapse-item" to="/safetyareas">
                 Safety Areas
               </NavLink>
               <NavLink className="collapse-item" to="/emphasis">

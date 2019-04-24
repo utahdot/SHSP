@@ -3,16 +3,18 @@ import React, { Component } from "react";
 class Summary extends Component {
   render() {
     return (
-      <div>
+      <div className="m-5">
         <div className="row">
           <div className="col-12">
-            <h3 className="text-center">Executive Summary</h3>
+            <h1 className="text-center">Executive Summary</h1>
           </div>
         </div>
         <div className="row">
-          <div className="col-12 text-center">
+          <div className="col-12 mb-3 text-center">
             <img src="img/mvw.jpg" alt="Mountain View Corridor" />
           </div>
+        </div>
+        <div className="row">
           <div className="col-12">
             <p>
               In 2003, several Utah agencies came together to form the Utah
