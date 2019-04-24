@@ -10,6 +10,7 @@ import Emphasis from "./components/Emphasis";
 import Emphasis_Aggresive from "./components/emphasis/Aggresive";
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
+import FiveEs from "./components/FiveEs";
 import "./App.css";
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route path="/aggresive" component={Emphasis_Aggresive} />
                 <Route path="/safetyleadership" component={SafetyLeadership} />
                 <Route path="/evaluation" component={Evaluation} />
+                <Route path="/fivees" component={FiveEs} />
               </div>
             </div>
           </div>
