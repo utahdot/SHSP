@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
 import ScrollUpButton from "./components/ScrollUpButton";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
@@ -15,7 +15,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <>
+      <HashRouter>
         <ScrollUpButton />
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
@@ -23,18 +23,27 @@ class App extends Component {
             <Topbar />
             <div>
               <div className="content">
-                <Route exact path="/" component={Home} />
-                <Route path="/summary" component={Summary} />
-                <Route path="/content2" component={Content2} />
-                <Route path="/emphasis" component={Emphasis} />
-                <Route path="/aggresive" component={Emphasis_Aggresive} />
-                <Route path="/safetyleadership" component={SafetyLeadership} />
-                <Route path="/evaluation" component={Evaluation} />
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route exact path="/summary" component={Summary} />
+                  <Route exact path="/content2" component={Content2} />
+                  <Route exact path="/emphasis" component={Emphasis} />
+                  <Route
+                    exact
+                    path="/aggresive"
+                    component={Emphasis_Aggresive}
+                  />
+                  <Route
+                    path="/safetyleadership"
+                    component={SafetyLeadership}
+                  />
+                  <Route path="/evaluation" component={Evaluation} />
+                </Switch>
               </div>
             </div>
           </div>
         </div>
-      </>
+      </HashRouter>
     );
   }
 }
