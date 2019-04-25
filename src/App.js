@@ -11,6 +11,11 @@ import Emphasis_Aggresive from "./components/emphasis/Aggresive";
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
 import FiveEs from "./components/FiveEs";
+import Engineering from "./components/five_es/Engineering";
+import Enforcement from "./components/five_es/Enforcement";
+import Education from "./components/five_es/Education";
+import EmergencyResponse from "./components/five_es/EmergencyResponse";
+import Everyone from "./components/five_es/Everyone";
 import "./App.css";
 
 class App extends Component {
@@ -32,6 +37,11 @@ class App extends Component {
                 <Route path="/safetyleadership" component={SafetyLeadership} />
                 <Route path="/evaluation" component={Evaluation} />
                 <Route path="/fivees" component={FiveEs} />
+                <Route path="/engineering" component={Engineering} />
+                <Route path="/enforcement" component={Enforcement} />
+                <Route path="/education" component={Education} />
+                <Route path="/emergencyresponse" component={EmergencyResponse} />
+                <Route path="/everyone" component={Everyone} />
               </div>
             </div>
           </div>

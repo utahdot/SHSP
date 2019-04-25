@@ -40,10 +40,12 @@ class FiveEs extends Component {
                   new and innovative ways to make roads safer.
                 </p>
               </div>
+              <div className="card-footer">
+                <NavLink className="btn btn-outline-primary" to="/engineering">
+                  Learn More
+                </NavLink>
+              </div>
             </div>
-            <NavLink className="mt-3 btn btn-outline-primary" to="/test">
-              Engineering
-            </NavLink>
           </div>
           <div className="col-md-2 border-0">
             <div className="card h-100">
@@ -66,10 +68,12 @@ class FiveEs extends Component {
                   as well as specialized mobilization efforts.
                 </p>
               </div>
+              <div className="card-footer">
+                <NavLink className="btn btn-outline-primary" to="/enforcement">
+                  Learn More
+                </NavLink>
+              </div>
             </div>
-            <NavLink className="mt-3 btn btn-outline-primary" to="/test">
-              Enforcement
-            </NavLink>
           </div>
           <div className="col-md-2 border-0">
             <div className="card h-100">
@@ -90,10 +94,12 @@ class FiveEs extends Component {
                   safety issues.
                 </p>
               </div>
+              <div className="card-footer">
+                <NavLink className="btn btn-outline-primary" to="/education">
+                  Learn More
+                </NavLink>
+              </div>
             </div>
-            <NavLink className="mt-3 btn btn-outline-primary" to="/test">
-              Education
-            </NavLink>
           </div>
           <div className="col-md-2 border-0">
             <div className="card h-100">
@@ -120,10 +126,12 @@ class FiveEs extends Component {
                   conditions.
                 </p>
               </div>
+              <div className="card-footer">
+                <NavLink className="btn btn-outline-primary" to="/emergencyresponse">
+                  Learn More
+                </NavLink>
+              </div>
             </div>
-            <NavLink className="mt-3 btn btn-outline-primary" to="/test">
-              Emergency Response
-            </NavLink>
           </div>
           <div className="col-md-2 border-0">
             <div className="card h-100">
@@ -146,10 +154,12 @@ class FiveEs extends Component {
                   most important “E” in traffic safety.
                 </p>
               </div>
+              <div className="card-footer">
+                <NavLink className="btn btn-outline-primary" to="/everyone">
+                  Learn More
+                </NavLink>
+              </div>
             </div>
-            <NavLink className="mt-3 btn btn-outline-primary" to="/test">
-              Everyone
-            </NavLink>
           </div>
         </div>
       </div>
