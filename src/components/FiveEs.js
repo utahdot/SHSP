@@ -7,15 +7,13 @@ class FiveEs extends Component {
       <div className="m-5">
         <div className="row">
           <div className="col-12 mx-4">
-            <h3 className="text-center">Empahsis Safety Areas</h3>
+            <h3 className="text-center">Five E's</h3>
           </div>
         </div>
         <div className="row">
           <div className="col-12 mx-4 text-center">
             <p>
-              Emphasis safety areas consist of 12 programs that will be given
-              added attention and emphasis by the safety organizations for the
-              next five years
+              This is the Five E's homepage.
             </p>
           </div>
         </div>
