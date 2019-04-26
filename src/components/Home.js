@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <>
       <header>
         <div className="overlay" />
         <video
@@ -42,8 +41,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        </header>
-      </>
+      </header>
     );
   }
 }

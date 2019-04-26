@@ -6,19 +6,19 @@ class FiveEs extends Component {
     return (
       <div className="m-5">
         <div className="row">
-          <div className="col-12 mx-4">
+          <div className="col-12 mx-auto">
             <h3 className="text-center">Five E's</h3>
           </div>
         </div>
         <div className="row">
-          <div className="col-12 mx-4 text-center">
+          <div className="col-12 mx-auto text-center">
             <p>
               This is the Five E's homepage.
             </p>
           </div>
         </div>
         <div className="row d-flex justify-content-center text-center">
-          <div className="col-md-2 border-0">
+          <div className="col-xl-3 mb-xl-5 col-lg-12 mb-lg-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -45,7 +45,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-2 border-0">
+          <div className="col-xl-3 mb-xl-5 col-lg-12 mb-lg-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -73,7 +73,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-2 border-0">
+          <div className="col-xl-3 mb-xl-5 col-lg-12 mb-lg-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -99,7 +99,9 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-2 border-0">
+        </div>
+        <div className="row d-flex justify-content-center text-center">
+          <div className="col-xl-3 mb-xl-5 col-lg-12 mb-lg-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -131,7 +133,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-2 border-0">
+          <div className="col-xl-3 mb-xl-5 col-lg-12 mb-lg-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"

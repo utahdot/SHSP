@@ -25,7 +25,7 @@ class App extends Component {
         <ScrollUpButton />
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
-          <div id="content" className="bg-gradient-udot-dark">
+          <div>
             <Topbar />
           </div>
           <div>
