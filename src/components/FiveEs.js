@@ -39,7 +39,7 @@ class FiveEs extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/engineering">
+                <NavLink className="btn btn-outline-primary" to="/fivees/engineering">
                   Learn More
                 </NavLink>
               </div>
@@ -67,7 +67,7 @@ class FiveEs extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/enforcement">
+                <NavLink className="btn btn-outline-primary" to="/fivees/enforcement">
                   Learn More
                 </NavLink>
               </div>
@@ -93,7 +93,7 @@ class FiveEs extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/education">
+                <NavLink className="btn btn-outline-primary" to="/fivees/education">
                   Learn More
                 </NavLink>
               </div>
@@ -125,7 +125,7 @@ class FiveEs extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/emergencyresponse">
+                <NavLink className="btn btn-outline-primary" to="/fivees/emergencyresponse">
                   Learn More
                 </NavLink>
               </div>
@@ -153,7 +153,7 @@ class FiveEs extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/everyone">
+                <NavLink className="btn btn-outline-primary" to="/fivees/everyone">
                   Learn More
                 </NavLink>
               </div>

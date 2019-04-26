@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
 import ScrollUpButton from "./components/ScrollUpButton";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
@@ -21,32 +21,34 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <ScrollUpButton />
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <Topbar />
-            <div>
-              <div className="content">
+          </div>
+          <div>
+            <div className="content">
+              <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/summary" component={Summary} />
-                <Route path="/content2" component={Content2} />
-                <Route path="/emphasis" component={Emphasis} />
-                <Route path="/aggresive" component={Emphasis_Aggresive} />
-                <Route path="/safetyleadership" component={SafetyLeadership} />
-                <Route path="/evaluation" component={Evaluation} />
-                <Route path="/fivees" component={FiveEs} />
-                <Route path="/engineering" component={Engineering} />
-                <Route path="/enforcement" component={Enforcement} />
-                <Route path="/education" component={Education} />
-                <Route path="/emergencyresponse" component={EmergencyResponse} />
-                <Route path="/everyone" component={Everyone} />
-              </div>
+                <Route exact path="/summary" component={Summary} />
+                <Route exact path="/content2" component={Content2} />
+                <Route exact path="/emphasis" component={Emphasis} />
+                <Route exact path="/aggresive" component={Emphasis_Aggresive} />
+                <Route exact path="/safetyleadership" component={SafetyLeadership} />
+                <Route exact path="/evaluation" component={Evaluation} />
+                <Route exact path="/fivees" component={FiveEs} />
+                <Route exact path="/fivees/engineering" component={Engineering} />
+                <Route exact path="/fivees/enforcement" component={Enforcement} />
+                <Route exact path="/fivees/education" component={Education} />
+                <Route exact path="/fivees/emergencyresponse" component={EmergencyResponse} />
+                <Route exact path="/fivees/everyone" component={Everyone} />
+              </Switch>
             </div>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
