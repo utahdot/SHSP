@@ -10,6 +10,12 @@ import Emphasis from "./components/Emphasis";
 import Emphasis_Aggresive from "./components/emphasis/Aggresive";
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
+import FiveEs from "./components/FiveEs";
+import Engineering from "./components/five_es/Engineering";
+import Enforcement from "./components/five_es/Enforcement";
+import Education from "./components/five_es/Education";
+import EmergencyResponse from "./components/five_es/EmergencyResponse";
+import Everyone from "./components/five_es/Everyone";
 import "./App.css";
 
 class App extends Component {
@@ -19,27 +25,26 @@ class App extends Component {
         <ScrollUpButton />
         <Sidebar />
         <div id="content-wrapper" className="d-flex flex-column">
-          <div id="content">
+          <div>
             <Topbar />
-            <div>
-              <div className="content">
-                <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route exact path="/summary" component={Summary} />
-                  <Route exact path="/content2" component={Content2} />
-                  <Route exact path="/emphasis" component={Emphasis} />
-                  <Route
-                    exact
-                    path="/aggresive"
-                    component={Emphasis_Aggresive}
-                  />
-                  <Route
-                    path="/safetyleadership"
-                    component={SafetyLeadership}
-                  />
-                  <Route path="/evaluation" component={Evaluation} />
-                </Switch>
-              </div>
+          </div>
+          <div>
+            <div className="content">
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/summary" component={Summary} />
+                <Route exact path="/content2" component={Content2} />
+                <Route exact path="/emphasis" component={Emphasis} />
+                <Route exact path="/aggresive" component={Emphasis_Aggresive} />
+                <Route exact path="/safetyleadership" component={SafetyLeadership} />
+                <Route exact path="/evaluation" component={Evaluation} />
+                <Route exact path="/fivees" component={FiveEs} />
+                <Route exact path="/fivees/engineering" component={Engineering} />
+                <Route exact path="/fivees/enforcement" component={Enforcement} />
+                <Route exact path="/fivees/education" component={Education} />
+                <Route exact path="/fivees/emergencyresponse" component={EmergencyResponse} />
+                <Route exact path="/fivees/everyone" component={Everyone} />
+              </Switch>
             </div>
           </div>
         </div>

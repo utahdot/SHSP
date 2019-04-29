@@ -41,41 +41,10 @@ class Sidebar extends Component {
           </NavLink>
         </li>
         <li className="nav-item">
-          <a
-            className="nav-link collapses"
-            to=""
-            data-toggle="collapse"
-            data-target="#fivees"
-            aria-expanded="false"
-            area-controls="safetyAreas"
-          >
-            <i className="fas fa-fw fa-project-diagram" />
-            <span>Five E's</span>
-          </a>
-          <div
-            id="fivees"
-            className="collapse force-top"
-            aria-labelledby="FiveEs"
-            data-parent="#accordionSidebar"
-          >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <NavLink className="collapse-item" to="/engineering">
-                Engineering
-              </NavLink>
-              <NavLink className="collapse-item" to="/enforcement">
-                Enforcement
-              </NavLink>
-              <NavLink className="collapse-item" to="/education">
-                Education
-              </NavLink>
-              <NavLink className="collapse-item" to="/emergencyresponse">
-                Emergency Response
-              </NavLink>
-              <NavLink className="collapse-item" to="/everyone">
-                Everyone
-              </NavLink>
-            </div>
-          </div>
+          <NavLink className="nav-link" to="/fivees">
+            <i className="fas fa-fw fa-user-tie" />
+          <span>Five E's</span>
+          </NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/evaluation">
