@@ -18,7 +18,7 @@ class FiveEs extends Component {
           </div>
         </div>
         <div className="row d-flex justify-content-center text-center">
-          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+          <div className="col-xxl-4 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -45,7 +45,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+          <div className="col-xxl-4 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -73,7 +73,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+          <div className="col-xxl-4 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -99,9 +99,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row d-flex justify-content-center text-center">
-          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+          <div className="col-xxl-4 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -133,7 +131,7 @@ class FiveEs extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+          <div className="col-xxl-4 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
