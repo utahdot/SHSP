@@ -37,6 +37,7 @@ class SafetyLeadership extends Component {
                   <li>Highway Safety Office</li>
                 </ul>
               </li>
+              <li>Utah State Board of Education</li>
               <li>Utah Department of Health (UDOH)
                 <ul>
                   <li>Violence and Injury Prevention Program</li>
