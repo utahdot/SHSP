@@ -7,7 +7,7 @@ import Topbar from "./components/Topbar";
 import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
 import Emphasis from "./components/Emphasis";
-import Emphasis_Aggresive from "./components/emphasis/Aggresive";
+import Aggressive from "./components/emphasis/Aggresive";
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
 import FiveEs from "./components/FiveEs";
@@ -35,7 +35,7 @@ class App extends Component {
                 <Route exact path="/summary" component={Summary} />
                 <Route exact path="/content2" component={Content2} />
                 <Route exact path="/emphasis" component={Emphasis} />
-                <Route exact path="/aggresive" component={Emphasis_Aggresive} />
+                <Route exact path="/aggresive" component={Aggressive} />
                 <Route exact path="/safetyleadership" component={SafetyLeadership} />
                 <Route exact path="/evaluation" component={Evaluation} />
                 <Route exact path="/fivees" component={FiveEs} />
