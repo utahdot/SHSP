@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BarChart from "../charts/BarChart";
+import AggressiveDrivingFatalities from "../charts/AggressiveDrivingFatalities";
 
 // const data = {
 //   labels: ["January", "February", "March", "April", "May", "June", "July"],
@@ -19,18 +19,18 @@ import BarChart from "../charts/BarChart";
 class Aggresive extends Component {
   render() {
     return (
-      <div>
+      <div className="m-5">
         <div className="row">
-          <div className="col-12 mx-4">
-            <h3 className="text-center">
-              Aggreasive Driving{" "}
-              <span className="text-danger">Emphasis Area</span>
-            </h3>
+          <div className="col-12 mb-4 mx-auto">
+            <h2 className="text-center">
+              Aggressive Driving
+              <span className="text-danger"> Emphasis Area</span>
+            </h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-8 mx-auto">
-            <h6>CHALLENGE</h6>
+          <div className="col-md-7 mx-auto">
+            <h5 className="font-weight-bold">CHALLENGE</h5>
             <p>
               Aggressive driving includes deliberate behaviors such as speeding,
               tailgating, weaving in and out of lanes, failure to yield, running
@@ -38,18 +38,43 @@ class Aggresive extends Component {
               As congestion and travel delays increase, so does aggressive
               driving.
             </p>
-            <h6>DIRECTION</h6>
-            <p>
+            <h5 className="font-weight-bold">DIRECTION</h5>
+            <p className="mb-5">
               Continue or increase efforts to fund aggressive driving
               enforcement and educational campaigns
             </p>
+            <AggressiveDrivingFatalities />
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-8 mx-auto">
-            <div>
-              <BarChart />
-            </div>
+          <div className="col-md-4 mx-auto">
+            <h5 className="font-weight-bold text-danger">PRIORITY STRATEGIES</h5>
+            <h6 className="font-weight-bold">Education</h6>
+            <ul>
+              <li>Educating novice and experienced drivers about the dangers of aggressive driving</li>
+              <li>Support aggressive driving programs at high schools, businesses and community outreach events</li>
+            </ul>
+            <h6 className="font-weight-bold">Enforcement</h6>
+            <ul>
+              <li>Continue to support aggressive driving mitigation programs</li>
+              <li>Continue to conduct aggressive driving enforcement campaigns</li>
+            </ul>
+            <h6 className="font-weight-bold">Engineering</h6>
+            <ul>
+              <li>Use variable message signs to inform drivers of current road conditions</li>
+              <li>Improve signal coordination to produce efficient and increased traffic flow on roadway corridors</li>
+            </ul>
+            <h6 className="font-weight-bold">Emergency Services</h6>
+            <ul className="mb-4">
+              <li>Increase involvement of emergency service providers in aggressive driving programs and community events</li>
+            </ul>
+            <h5 className="font-weight-bold text-danger">LEADERS</h5>
+            <ul>
+              <li>Utah Highway Patrol</li>
+              <li>UDPS, Highway Safety Office</li>
+              <li>Utah Department of Transportation</li>
+              <li>Statewide Local Law Enforcement Agencies</li>
+              <li>Utah Chiefs of Police Association</li>
+              <li>Zero Fatalities</li>
+            </ul>
           </div>
         </div>
       </div>
