@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
 import "chartjs-plugin-annotation";
 
-class AggressiveDrivingFatalitiesChart extends Component {
+class AggressiveDrivingFatalities extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,4 +66,4 @@ class AggressiveDrivingFatalitiesChart extends Component {
   }
 }
 
-export default AggressiveDrivingFatalitiesChart;
+export default AggressiveDrivingFatalities;
