@@ -27,7 +27,7 @@ class ImpairedDrivingFatalities extends Component {
             borderWidth: 1,
             hoverBackgroundColor: "rgba(150, 40, 27, 1)",
             hoverBorderColor: "rgba(192, 57, 43, 1)",
-            data: [10, 46, 29, 23, 13, 7, 14, 14, 6, 15]
+            data: [39, 42, 34, 31, 25, 39, 20, 23, 48, 37]
           }
         ]
       }
