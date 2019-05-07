@@ -18,10 +18,6 @@ class AggressiveDrivingFatalities extends Component {
           "2013",
           "2014",
           "2015",
-          "2016",
-          "2017",
-          "2018",
-          "2019"
         ],
         datasets: [
           {
@@ -31,7 +27,7 @@ class AggressiveDrivingFatalities extends Component {
             borderWidth: 1,
             hoverBackgroundColor: "rgba(150, 40, 27, 1)",
             hoverBorderColor: "rgba(192, 57, 43, 1)",
-            data: [12, 19, 11, 21, 12, 10, 7, 11, 14, 13, 12, 13, 12, 10]
+            data: [12, 19, 11, 21, 12, 10, 7, 11, 14, 13]
           }
         ]
       }
@@ -49,14 +45,23 @@ class AggressiveDrivingFatalities extends Component {
             mode: "vertical",
             type: "line",
             value: 10,
-            scaleID: "x-axis-0"
+            scaleID: "x-axis-0",
           }
         ],
         label: {
           backgroundColor: "red",
           fontFamily: "sans-serif",
-          fontSize: 10
+          fontSize: 10,
         }
+      },
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        position: "bottom",
+        fontSize: 20,
+        text: "Aggresive Driving Fatalities",
       }
       //maintainAspectRatio: false
     };
