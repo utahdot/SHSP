@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
 import "chartjs-plugin-annotation";
 
-class AggressiveDrivingFatalities extends Component {
+class ImpairedDrivingFatalities extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,13 +21,13 @@ class AggressiveDrivingFatalities extends Component {
         ],
         datasets: [
           {
-            label: "Aggressive Driving Fatalities",
+            label: "Impaired Driving Fatalities",
             backgroundColor: "rgba(207, 0, 15, 1)",
             borderColor: "rgba(242, 38, 19, 1)",
             borderWidth: 1,
             hoverBackgroundColor: "rgba(150, 40, 27, 1)",
             hoverBorderColor: "rgba(192, 57, 43, 1)",
-            data: [12, 19, 11, 21, 12, 10, 7, 11, 14, 13]
+            data: [10, 46, 29, 23, 13, 7, 14, 14, 6, 15]
           }
         ]
       }
@@ -61,7 +61,7 @@ class AggressiveDrivingFatalities extends Component {
         display: true,
         position: "bottom",
         fontSize: 20,
-        text: "Aggressive Driving Fatalities",
+        text: "Impaired Driving Fatalities",
       }
       //maintainAspectRatio: false
     };
@@ -71,4 +71,4 @@ class AggressiveDrivingFatalities extends Component {
   }
 }
 
-export default AggressiveDrivingFatalities;
+export default ImpairedDrivingFatalities;

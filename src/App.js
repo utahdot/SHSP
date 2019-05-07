@@ -9,6 +9,7 @@ import Content2 from "./components/Content2";
 import Emphasis from "./components/Emphasis";
 import Aggressive from "./components/emphasis/Aggresive";
 import Distracted from "./components/emphasis/Distracted";
+import Impaired from "./components/emphasis/Impaired";
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
 import FiveEs from "./components/FiveEs";
@@ -38,6 +39,7 @@ class App extends Component {
                 <Route exact path="/emphasis" component={Emphasis} />
                 <Route exact path="/emphasis/aggressive" component={Aggressive} />
                 <Route exact path="/emphasis/distracted" component={Distracted} />
+                <Route exact path="/emphasis/impaired" component={Impaired} />
                 <Route exact path="/safetyleadership" component={SafetyLeadership} />
                 <Route exact path="/evaluation" component={Evaluation} />
                 <Route exact path="/fivees" component={FiveEs} />

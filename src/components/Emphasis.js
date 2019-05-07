@@ -78,7 +78,7 @@ class Emphasis extends Component {
                 </p>
               </div>
               <div className="card-footer">
-                <NavLink className="btn btn-outline-primary" to="/test">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/impaired">
                   Learn More
                 </NavLink>
               </div>
