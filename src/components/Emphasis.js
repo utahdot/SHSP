@@ -19,8 +19,8 @@ class Emphasis extends Component {
             </p>
           </div>
         </div>
-        <div className="row mx-auto text-center">
-          <div className="col-md-3 border-0">
+        <div className="row d-flex justify-content-center text-center">
+          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -30,17 +30,15 @@ class Emphasis extends Component {
               <div className="card-body">
                 <h5 className="card-title">Aggresive Driving</h5>
                 <p className="card-text">
-                  Aggresive driving includes deliberate behaviors such as
-                  spedding, tailgating, weaving in and out of lanes, failure to
-                  yield, runing red lights/stop signs and road rage.
+                  Continue or increase efforts to fund aggressive driving enforcement and educational campaigns.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/aggresive">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/aggresive">
                   Aggresive Driving
                 </NavLink>
               </div>
             </div>
           </div>
-          <div className="col-md-3 border-0">
+          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -50,8 +48,7 @@ class Emphasis extends Component {
               <div className="card-body">
                 <h5 className="card-title">Distracted Driving</h5>
                 <p className="card-text">
-                  Fatalties related to ditracted driving are a growing problem
-                  in the State.
+                  Reduce the number of serious injury and fatal crashes related to driver distraction.
                 </p>
                 <NavLink className="btn btn-outline-primary" to="/test">
                   Distracted Driving
@@ -59,7 +56,7 @@ class Emphasis extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3 border-0">
+          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -69,8 +66,7 @@ class Emphasis extends Component {
               <div className="card-body">
                 <h5 className="card-title">Drowsy Driving</h5>
                 <p className="card-text">
-                  Serious injuries and fatalities related to drowsy driving are
-                  a top concern.
+                  Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes
                 </p>
                 <NavLink className="btn btn-outline-primary" to="/test">
                   Drowsy Driving
@@ -78,7 +74,8 @@ class Emphasis extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3 border-0">
+		  
+          <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
             <div className="card h-100">
               <img
                 className="card-img-top"
@@ -88,11 +85,162 @@ class Emphasis extends Component {
               <div className="card-body">
                 <h5 className="card-title">Impared Driving</h5>
                 <p className="card-text">
-                  Impared driving is recognized as being an incredible dangerous
-                  behavior.
+                  Continue to reduce alcohol and drug-related serious injury and fatal crashes.
                 </p>
                 <NavLink className="btn btn-outline-primary" to="/test">
                   Impared Driving
+                </NavLink>
+              </div>
+            </div>
+          </div>
+		</div>
+
+		<div className="row d-flex justify-content-center text-center">		
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/intersection-safety.png"
+                alt="Intersection Safety"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Intersection Safety</h5>
+                <p className="card-text">
+                  Efforts must be made to reduce the frequency and/or severity of crashes within intersections.
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Intersection Safety
+                </NavLink>
+              </div>
+            </div>          
+		  </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/motorcycle-safety.png"
+                alt="Motorcylce safety"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Motorcycle Safety</h5>
+                <p className="card-text">
+                  Efforts must be made to reduce motorcycle serisous injury and fatal crashes.
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Motorcycle Safety
+                </NavLink>
+              </div>
+            </div>
+          </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/pedestrian-safety.png"
+                alt="Pedestrian safety"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Pedestrian Safety</h5>
+                <p className="card-text">
+                  Efforts must be made to prevent pedestrian related crashes by implementing a comprehensive plan to provide safer pedestrian travel. 
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Pedestrian Safety
+                </NavLink>
+              </div>
+            </div>
+          </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/public-outreach.png"
+                alt="Public Outreach and Education"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Public Outreach and Education</h5>
+                <p className="card-text">
+                  Partnering efforts must continue to spread the message to Utah drivers about their role in eliminating these preventable crashes. 
+				  Through communication, education and community outreach we can get everyone to bring the safe driving message home. 
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Public Outreach and Education
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div className="row d-flex justify-content-center text-center">		
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/roadway-departure.png"
+                alt="Roadway Departure Crashes"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Roadway Departure Crashes</h5>
+                <p className="card-text">
+                  Work should continue to keep vehicles on the roadway and in their proper lanes. When vehicles do leave the roadway, efforts should be made to reduce the possibility and/or severity of crashes.
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Roadway Departure Crashes
+                </NavLink>
+              </div>
+            </div>          
+		  </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/speed-management.png"
+                alt="Speed Management"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Speed Management</h5>
+                <p className="card-text">
+                  Efforts must be focused on reducing speeding on the roads and the associated elements of reckless and careless attitudes that often accompany such driver behavior. 
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Speed Management
+                </NavLink>
+              </div>
+            </div>
+          </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/teen-driving-safety.png"
+                alt="Teen Driving Safety"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Teen Driving Safety</h5>
+                <p className="card-text">
+                  Focus efforts on innovative education methods to improve teen driver capabilities.
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Teen Driving Safety
+                </NavLink>
+              </div>
+            </div>
+          </div>
+		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+            <div className="card h-100">
+              <img
+                className="card-img-top"
+                src="img/use-of-safety-restraints.png"
+                alt="Use of Safety Restraints"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Use of Safety Restraints</h5>
+                <p className="card-text">
+                  On May 12, 2015 the primary seat belt law went into effect. UDOT, the Utah Department of Public Safety and their partners have been
+				  dedicated to increasing education and enforcement to help save lives. Efforts must continue to secure a permanent primary seat belt
+				  law for those who continue to ride unbuckled.
+                </p>
+                <NavLink className="btn btn-outline-primary" to="/test">
+                  Use of Safety Restraints
                 </NavLink>
               </div>
             </div>

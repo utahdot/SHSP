@@ -35,7 +35,7 @@ class App extends Component {
                 <Route exact path="/summary" component={Summary} />
                 <Route exact path="/content2" component={Content2} />
                 <Route exact path="/emphasis" component={Emphasis} />
-                <Route exact path="/aggresive" component={Emphasis_Aggresive} />
+                <Route exact path="/emphasis/aggresive" component={Emphasis_Aggresive} />
                 <Route exact path="/safetyleadership" component={SafetyLeadership} />
                 <Route exact path="/evaluation" component={Evaluation} />
                 <Route exact path="/fivees" component={FiveEs} />
