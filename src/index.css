@@ -536,6 +536,11 @@ mark,
   height: auto;
 }
 
+.content {
+	padding: 15px;
+}
+
+
 .figure {
   display: inline-block;
 }
