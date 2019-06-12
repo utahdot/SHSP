@@ -8,18 +8,7 @@ import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
 
 import Emphasis from "./components/Emphasis";
-import Emphasis_Aggresive from "./components/emphasis/Aggresive";
-import Emphasis_Distracted from "./components/emphasis/Distracted";
-import Emphasis_Drowsy from "./components/emphasis/Drowsy";
-import Emphasis_Impared from "./components/emphasis/impared";
-import Emphasis_intersection from "./components/emphasis/intersection";
-import Emphasis_motorcycle from "./components/emphasis/motorcycle";
-import Emphasis_pedesterian from "./components/emphasis/pedesterian";
-import Emphasis_public_outreach from "./components/emphasis/public_outreach";
-import Emphasis_roadway_departure from "./components/emphasis/roadway_departure";
-import Emphasis_speed_management from "./components/emphasis/speed_management";
-import Emphasis_teen_driving from "./components/emphasis/teen_driving";
-import Emphasis_use_of_safety_restraints from "./components/emphasis/use_of_safety_restraints";
+import Emphasis_components from "./components/Emphasis_components";
 
 import SafetyLeadership from "./components/SafetyLeadership";
 import Evaluation from "./components/Evaluation";
@@ -49,21 +38,23 @@ class App extends Component {
                 <Route exact path="/content2" component={Content2} />
 				
                 <Route exact path="/emphasis" component={Emphasis} />
-                <Route exact path="/emphasis/aggresive" component={Emphasis_Aggresive} />
-				<Route exact path="/emphasis/distracted" component={Emphasis_Distracted} />
-				<Route exact path="/emphasis/drowsy" component={Emphasis_Drowsy} />
-				<Route exact path="/emphasis/impared" component={Emphasis_Impared} />
-				<Route exact path="/emphasis/intersection" component={Emphasis_intersection} />
-				<Route exact path="/emphasis/motorcycle" component={Emphasis_motorcycle} />
-				<Route exact path="/emphasis/pedesterian" component={Emphasis_pedesterian} />
-				<Route exact path="/emphasis/publicoutreach" component={Emphasis_public_outreach} />
-				<Route exact path="/emphasis/roadwaydeparture" component={Emphasis_roadway_departure} />
-				<Route exact path="/emphasis/speedmanagement" component={Emphasis_speed_management} />
-				<Route exact path="/emphasis/teendriving" component={Emphasis_teen_driving} />
-				<Route exact path="/emphasis/use_of_safety_restraints" component={Emphasis_use_of_safety_restraints} />
+				<Route exact path="/emphasis/AggreasiveDriving" render={(props) => <Emphasis_components {...props} area='AggreasiveDriving' />} />
+				<Route exact path="/emphasis/DistractedDriving" render={(props) => <Emphasis_components {...props} area='DistractedDriving' />} />
+				<Route exact path="/emphasis/DrowsyDriving" render={(props) => <Emphasis_components {...props} area='DrowsyDriving' />} />
+				<Route exact path="/emphasis/ImpairedDriving" render={(props) => <Emphasis_components {...props} area='ImpairedDriving' />} />
+				<Route exact path="/emphasis/IntersectionSafety" render={(props) => <Emphasis_components {...props} area='IntersectionSafety' />} />
+				<Route exact path="/emphasis/MotorcycleSafety" render={(props) => <Emphasis_components {...props} area='MotorcycleSafety' />} />
+				<Route exact path="/emphasis/PedestrianSafety" render={(props) => <Emphasis_components {...props} area='PedestrianSafety' />} />
+				<Route exact path="/emphasis/PublicOutreachandEducation" render={(props) => <Emphasis_components {...props} area='PublicOutreachandEducation' />} />
+				<Route exact path="/emphasis/RoadwayDepartureCrashes" render={(props) => <Emphasis_components {...props} area='RoadwayDepartureCrashes' />} />
+				<Route exact path="/emphasis/SpeedManagement" render={(props) => <Emphasis_components {...props} area='SpeedManagement' />} />
+				<Route exact path="/emphasis/TeenDrivingSafety" render={(props) => <Emphasis_components {...props} area='TeenDrivingSafety' />} />
+				<Route exact path="/emphasis/UseofSafetyRestraints" render={(props) => <Emphasis_components {...props} area='UseofSafetyRestraints' />} />
+
 				
                 <Route exact path="/safetyleadership" component={SafetyLeadership} />
                 <Route exact path="/evaluation" component={Evaluation} />
+				
                 <Route exact path="/fivees" component={FiveEs} />
                 <Route exact path="/fivees/engineering" component={Engineering} />
                 <Route exact path="/fivees/enforcement" component={Enforcement} />

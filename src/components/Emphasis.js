@@ -32,7 +32,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Continue or increase efforts to fund aggressive driving enforcement and educational campaigns.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/aggresive">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/AggreasiveDriving">
                   Aggresive Driving
                 </NavLink>
               </div>
@@ -50,7 +50,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Reduce the number of serious injury and fatal crashes related to driver distraction.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/distracted">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/DistractedDriving">
                   Distracted Driving
                 </NavLink>
               </div>
@@ -68,7 +68,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/drowsy">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/DrowsyDriving">
                   Drowsy Driving
                 </NavLink>
               </div>
@@ -87,7 +87,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Continue to reduce alcohol and drug-related serious injury and fatal crashes.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/impared">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/ImpairedDriving">
                   Impared Driving
                 </NavLink>
               </div>
@@ -108,7 +108,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Efforts must be made to reduce the frequency and/or severity of crashes within intersections.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/intersection">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/IntersectionSafety">
                   Intersection Safety
                 </NavLink>
               </div>
@@ -126,7 +126,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Efforts must be made to reduce motorcycle serisous injury and fatal crashes.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/motorcycle">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/MotorcycleSafety">
                   Motorcycle Safety
                 </NavLink>
               </div>
@@ -144,7 +144,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Efforts must be made to prevent pedestrian related crashes by implementing a comprehensive plan to provide safer pedestrian travel. 
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/pedesterian">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/PedestrianSafety">
                   Pedestrian Safety
                 </NavLink>
               </div>
@@ -163,7 +163,7 @@ class Emphasis extends Component {
                   Partnering efforts must continue to spread the message to Utah drivers about their role in eliminating these preventable crashes. 
 				  Through communication, education and community outreach we can get everyone to bring the safe driving message home. 
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/publicoutreach">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/PublicOutreachandEducation">
                   Public Outreach and Education
                 </NavLink>
               </div>
@@ -183,7 +183,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Work should continue to keep vehicles on the roadway and in their proper lanes. When vehicles do leave the roadway, efforts should be made to reduce the possibility and/or severity of crashes.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/roadwaydeparture">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/RoadwayDepartureCrashes">
                   Roadway Departure Crashes
                 </NavLink>
               </div>
@@ -201,7 +201,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Efforts must be focused on reducing speeding on the roads and the associated elements of reckless and careless attitudes that often accompany such driver behavior. 
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/speedmanagement">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/SpeedManagement">
                   Speed Management
                 </NavLink>
               </div>
@@ -219,7 +219,7 @@ class Emphasis extends Component {
                 <p className="card-text">
                   Focus efforts on innovative education methods to improve teen driver capabilities.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/teendriving">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/TeenDrivingSafety">
                   Teen Driving Safety
                 </NavLink>
               </div>
@@ -239,7 +239,7 @@ class Emphasis extends Component {
 				  dedicated to increasing education and enforcement to help save lives. Efforts must continue to secure a permanent primary seat belt
 				  law for those who continue to ride unbuckled.
                 </p>
-                <NavLink className="btn btn-outline-primary" to="/emphasis/use_of_safety_restraints">
+                <NavLink className="btn btn-outline-primary" to="/emphasis/UseofSafetyRestraints">
                   Use of Safety Restraints
                 </NavLink>
               </div>
