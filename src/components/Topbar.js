@@ -39,7 +39,7 @@ class Topbar extends Component {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://udot.utah.gov/stragegic-direction"
+                  href="https://udot.utah.gov/strategic-direction"
                 >
                   UDOT Strategic Direction
                 </a>
