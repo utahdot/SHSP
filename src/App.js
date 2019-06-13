@@ -7,6 +7,8 @@ import Topbar from "./components/Topbar";
 import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
 
+import safetyareas from "./components/safetyareas.js";
+
 import Continuing from "./components/Continuing";
 import Continuing_components from "./components/Continuing_components";
 
@@ -39,6 +41,8 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/summary" component={Summary} />
                 <Route exact path="/content2" component={Content2} />
+				
+				<Route exact path="/safetyareas" component={safetyareas} />
 				
 				<Route exact path="/continuing" component={Continuing} />
 				<Route exact path="/continuing/BicycleSafety" render={(props) => <Continuing_components {...props} area='BicycleSafety' />} />
