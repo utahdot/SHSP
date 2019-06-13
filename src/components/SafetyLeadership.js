@@ -50,6 +50,7 @@ class SafetyLeadership extends Component {
                   <li>National Highway Traffic Safety Administration (NHTSA)</li>
                 </ul>
               </li>
+			  <li>Utah State Board of Education</li>
             </ul>
           </div>
           <div className="col-3 d-flex justify-content-center">
