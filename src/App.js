@@ -7,6 +7,9 @@ import Topbar from "./components/Topbar";
 import Summary from "./components/Summary";
 import Content2 from "./components/Content2";
 
+import Continuing from "./components/Continuing";
+import Continuing_components from "./components/Continuing_components";
+
 import Emphasis from "./components/Emphasis";
 import Emphasis_components from "./components/Emphasis_components";
 
@@ -36,6 +39,16 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/summary" component={Summary} />
                 <Route exact path="/content2" component={Content2} />
+				
+				<Route exact path="/continuing" component={Continuing} />
+				<Route exact path="/continuing/BicycleSafety" render={(props) => <Continuing_components {...props} area='BicycleSafety' />} />
+				<Route exact path="/continuing/ChildSafety" render={(props) => <Continuing_components {...props} area='ChildSafety' />} />
+				<Route exact path="/continuing/CommercialMotorVehicleSafety" render={(props) => <Continuing_components {...props} area='CommercialMotorVehicleSafety' />} />
+				<Route exact path="/continuing/HighwayRailroadCrossingSafety" render={(props) => <Continuing_components {...props} area='HighwayRailroadCrossingSafety' />} />
+				<Route exact path="/continuing/RuralRoadSafety" render={(props) => <Continuing_components {...props} area='RuralRoadSafety' />} />
+				<Route exact path="/continuing/SeniorMobilityandSafety" render={(props) => <Continuing_components {...props} area='SeniorMobilityandSafety' />} />
+				<Route exact path="/continuing/TransitSystemSafety" render={(props) => <Continuing_components {...props} area='TransitSystemSafety' />} />
+				<Route exact path="/continuing/WorkZoneSafety" render={(props) => <Continuing_components {...props} area='WorkZoneSafety' />} />
 				
                 <Route exact path="/emphasis" component={Emphasis} />
 				<Route exact path="/emphasis/AggreasiveDriving" render={(props) => <Emphasis_components {...props} area='AggreasiveDriving' />} />
