@@ -1,0 +1,60 @@
+import React, { Component } from "react";
+
+class safetyareas extends Component {
+  render() {
+    return (
+      <div className="m-5">
+        <div className="row">
+          <div className="col-12">
+            <h1 className="text-center">Safety Areas</h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-6 mb-4">
+            <h2 className="text-center">Part 1 - Emphasis Safety Areas </h2>
+			<p>
+				In Part 1, there are 12 programs listed that will be
+				given added attention and emphasis in the safety
+				organizations for the next five years:
+				<ul>
+					<li>Aggressive Driving</li>
+					<li>Distracted Driving</li>
+					<li>Drowsy Driving</li>
+					<li>Impaired Driving</li>
+					<li>Intersection Safety</li>
+					<li>Motorcycle Safety</li>
+					<li>Pedestrian Safety</li>
+					<li>Public Outreach and Education</li>
+					<li>Roadway Departure Crashes</li>
+					<li>Speed Management</li>
+					<li>Teen Driving Safety</li>
+					<li>Use of Safety Restraints</li>
+				</ul>
+			</p>
+          </div>
+          <div className="col-6 mb-4">
+            <h2 className="text-center">Part 2 - Continuing Safety Areas </h2>
+			<p>
+				The programs contained in Part 3 represent
+				opportunities for the safety community to enhance
+				the programs used to support the goal to reduce
+				fatalities or injuries:
+				<ul>
+					<li>Bicycle Safety</li>
+					<li>Child Safety</li>
+					<li>Commercial Motor Vehicle Safety</li>
+					<li>Highway Railroad Crossing Safety</li>
+					<li>Rural Road Safety</li>
+					<li>Senior Mobility and Safety</li>
+					<li>Transit System Safety</li>
+					<li>Work Zone Safety</li>
+				</ul>
+			</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default safetyareas;
