@@ -12,19 +12,19 @@ class Emphasis extends Component {
 			url: 'AggreasiveDriving'
 		},    	
 		{
-			title:'Distracted driving',
+			title:'Distracted Driving',
 			desc:'Reduce the number of serious injury and fatal crashes related to driver distraction.',
 			fig_url: 'img/distracted-driving.png',
 			url: 'DistractedDriving'
 		},    	
 		{
-			title:'Driving drowsy',
+			title:'Drowsy Driving',
 			desc:'Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes.',
 			fig_url: 'img/drowsy-driving.png',
 			url: 'DrowsyDriving'
 		},    	
 		{
-			title:'Impared Driving',
+			title:'Impaired Driving',
 			desc:'Continue to reduce alcohol and drug-related serious injury and fatal crashes.',
 			fig_url: 'img/impaired-driving.png',
 			url: 'ImpairedDriving'
@@ -114,7 +114,7 @@ class Emphasis extends Component {
       <div>
         <div className="row">
           <div className="col-12 mx-4">
-            <h3 className="text-center">Empahsis Safety Areas</h3>
+            <h3 className="text-center">Emphasis Safety Areas</h3>
           </div>
         </div>
         <div className="row">
