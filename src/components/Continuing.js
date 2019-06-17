@@ -8,49 +8,49 @@ class Continuing extends Component {
     	{
 			title: 'Bicycle Safety',
 			desc: 'Continue addressing bicycle user needs on transportation facilities. Increase efforts for bicyclist and motorist education.',
-			fig_url: '/img/Continuing safety areas/bicycle-safety.jpg',
+			fig_url: 'img/Continuing safety areas/bicycle-safety.jpg',
 			url: 'BicycleSafety'
 		},    	
 		{
 			title:'Child Safety',
 			desc:'Efforts must be made to educate children and their parents about safety in and around cars and to reduce the possibility and/or severity of crashes involving children.',
-			fig_url: '/img/Continuing safety areas/child-safety.jpg',
+			fig_url: 'img/Continuing safety areas/child-safety.jpg',
 			url: 'ChildSafety'
 		},    	
 		{
 			title:'Commercial Motor Vehicle Safety',
 			desc:'Sustain efforts to reduce commercial vehicle serious injuries and fatal crashes. The Federal Motor Carriers Safety Administration, UDOT’s Motor Carrier Division and the Utah Highway Patrol oversee all safety issues in Utah.',
-			fig_url: '/img/Continuing safety areas/commercial-motor-vehicle-safety.jpg',
+			fig_url: 'img/Continuing safety areas/commercial-motor-vehicle-safety.jpg',
 			url: 'CommercialMotorVehicleSafety'
 		},    	
 		{
 			title:'Highway Railroad Crossing Safety',
 			desc:'Continue efforts to reduce crashes at highway railroad crossings through education, engineering, and enforcement.',
-			fig_url: '/img/Continuing safety areas/bicycle-safety.jpg',
+			fig_url: 'img/Continuing safety areas/bicycle-safety.jpg',
 			url: 'HighwayRailroadCrossingSafety'
 		},
 		{
 			title:'Rural Road Safety',
 			desc:'Special consideration must be given to improving the rural roadway system. Special consideration should also be given to improving the emergency service provider resources and capabilities to provide appropriate patient care.',
-			fig_url: '/img/Continuing safety areas/rural-road-safety.jpg',
+			fig_url: 'img/Continuing safety areas/rural-road-safety.jpg',
 			url: 'RuralRoadSafety'
 		},
 		{
 			title:'Senior Mobility and Safety',
 			desc:'Special consideration must be given to improving the highway system to accommodate older drivers and their needs.',
-			fig_url: '/img/Continuing safety areas/senior-mobility-and-safety.jpg',
+			fig_url: 'img/Continuing safety areas/senior-mobility-and-safety.jpg',
 			url: 'SeniorMobilityandSafety'
 		},
 		{
 			title:'Transit System Safety',
 			desc:'Special consideration must be given to improving the safety of the transit system including rail and bus travel.',
-			fig_url: '/img/Continuing safety areas/transit-system-safety.jpg',
+			fig_url: 'img/Continuing safety areas/transit-system-safety.jpg',
 			url: 'TransitSystemSafety'
 		},
 		{
 			title:'Work Zone Safety',
 			desc:'Efforts must be made to reduce the possibility and/or severity of crashes. Practices in traffic control or work zone management that lead to reduced work zone safety must be identified and limited.',
-			fig_url: '/img/Continuing safety areas/work-zone-safety.jpg',
+			fig_url: 'img/Continuing safety areas/work-zone-safety.jpg',
 			url: 'WorkZoneSafety'
 		},
     ];
