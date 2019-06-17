@@ -17,23 +17,17 @@ class Emphasis extends Component {
 			fig_url: 'img/distracted-driving.png',
 			url: 'DistractedDriving'
 		},    	
-		{
+/* 		{
 			title:'Drowsy Driving',
 			desc:'Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes.',
 			fig_url: 'img/drowsy-driving.png',
 			url: 'DrowsyDriving'
-		},    	
+		}, */
 		{
 			title:'Impaired Driving',
 			desc:'Continue to reduce alcohol and drug-related serious injury and fatal crashes.',
 			fig_url: 'img/impaired-driving.png',
 			url: 'ImpairedDriving'
-		},
-		{
-			title:'Intersection Safety',
-			desc:'Efforts must be made to reduce the frequency and/or severity of crashes within intersections.',
-			fig_url: 'img/intersection-safety.png',
-			url: 'IntersectionSafety'
 		},
 		{
 			title:'Motorcylce Safety',
@@ -47,17 +41,23 @@ class Emphasis extends Component {
 			fig_url: 'img/pedestrian-safety.png',
 			url: 'PedestrianSafety'
 		},
-		{
+/* 		{
 			title:'Public Outreach and Education',
 			desc:'Partnering efforts must continue to spread the message to Utah drivers about their role in eliminating these preventable crashes.  Through communication, education and community outreach we can get everyone to bring the safe driving message home. ',
 			fig_url: 'img/public-outreach.png',
 			url: 'PublicOutreachandEducation'
-		},
+		}, */
 		{
 			title:'Roadway Departure Crashes',
 			desc:'Work should continue to keep vehicles on the roadway and in their proper lanes. When vehicles do leave the roadway, efforts should be made to reduce the possibility and/or severity of crashes.',
 			fig_url: 'img/roadway-departure.png',
 			url: 'RoadwayDepartureCrashes'
+		},
+		{
+			title:'Intersection Safety',
+			desc:'Efforts must be made to reduce the frequency and/or severity of crashes within intersections.',
+			fig_url: 'img/intersection-safety.png',
+			url: 'IntersectionSafety'
 		},
 		{
 			title:'Speed Management',
@@ -76,6 +76,12 @@ class Emphasis extends Component {
 			desc:'On May 12, 2015 the primary seat belt law went into effect. UDOT, the Utah Department of Public Safety and their partners have been dedicated to increasing education and enforcement to help save lives. Efforts must continue to secure a permanent primary seat belt law for those who continue to ride unbuckled.',
 			fig_url: 'img/use-of-safety-restraints.png',
 			url: 'UseofSafetyRestraints'
+		},
+		{
+			title:'Senior Mobility and Safety',
+			desc:'Special consideration must be given to improving the highway system to accommodate older drivers and their needs.',
+			fig_url: 'img/Continuing safety areas/senior-mobility-and-safety.jpg',
+			url: 'SeniorMobilityandSafety'
 		},
     ];
 	

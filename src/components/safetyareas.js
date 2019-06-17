@@ -19,16 +19,15 @@ class safetyareas extends Component {
 				<ul>
 					<li>Aggressive Driving</li>
 					<li>Distracted Driving</li>
-					<li>Drowsy Driving</li>
 					<li>Impaired Driving</li>
-					<li>Intersection Safety</li>
 					<li>Motorcycle Safety</li>
 					<li>Pedestrian Safety</li>
-					<li>Public Outreach and Education</li>
 					<li>Roadway Departure Crashes</li>
+					<li>Intersection Safety</li>
 					<li>Speed Management</li>
 					<li>Teen Driving Safety</li>
 					<li>Use of Safety Restraints</li>
+					<li>Senior Mobility and Safety</li>
 				</ul>
 			</p>
           </div>
@@ -41,13 +40,16 @@ class safetyareas extends Component {
 				fatalities or injuries:
 				<ul>
 					<li>Bicycle Safety</li>
-					<li>Child Safety</li>
 					<li>Commercial Motor Vehicle Safety</li>
 					<li>Highway Railroad Crossing Safety</li>
 					<li>Rural Road Safety</li>
-					<li>Senior Mobility and Safety</li>
 					<li>Transit System Safety</li>
 					<li>Work Zone Safety</li>
+					<li>Connected and Autonomous Vehicles</li>
+					<li>Emergency Services</li>
+					<li>Traffic Incident Management</li>
+					<li>Traffic Data</li>
+					<li>Judicial System</li>
 				</ul>
 			</p>
           </div>

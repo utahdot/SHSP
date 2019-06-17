@@ -30,11 +30,6 @@ class EmphasisComponents extends Component {
 			challenge: 'Fatalities related to distracted driving are a growing problem in the State. Distracted driving violations and crashes are under-reported due to deficiencies in crash reporting and the difficulty of attributing crashes to distractions. Unfortunately, drivers are increasingly engaged in other activities while driving, especially using interactive electronic devices.',
 			direction: 'Reduce the number of serious injury and fatal crashes related to driver distraction.'
 		},
-		'DrowsyDriving': {
-			title: 'Drowsy Driving',
-			challenge: 'Serious injuries and fatalities related to drowsy driving are a top concern in Utah. Unfortunately, drowsy driving violations and crashes are under-reported due to deficiencies in crash reporting and the difficulty of attributing crashes to sleepiness.',
-			direction: 'Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes.'
-		},
 		'ImpairedDriving': {
 			title: 'Impaired Driving',
 			challenge: 'While the fact that impaired driving is recognized as being an incredibly dangerous behavior, fatal crashes due to alcohol and drugs continue to occur. To add to the problem, the number of fatalities where drivers have tested positive for drugs is showing an increasing trend.',
@@ -55,10 +50,10 @@ class EmphasisComponents extends Component {
 			challenge: 'While pedestrian crashes account for just one percent of all crashes, pedestrian fatalities have increased 47 percent over the past five years and they account for 15 percent of all traffic related fatalities. More attention to education and infrastructure must be given to this area in order to continue reducing pedestrian fatalities.',
 			direction: 'Efforts must be made to prevent pedestrian related crashes by implementing a comprehensive plan to provide safer pedestrian travel.'
 		},
-		'PublicOutreachandEducation': {
-			title: 'Public Outreach and Education',
-			challenge: 'More than 90 percent of all crashes in Utah are behavior related. While novice drivers are involved in nearly a quarter of these crashes, even experienced drivers can get too comfortable behind the wheel and take risks that put them and others on the road in danger. Studies show that the top driving behaviors that are killing people on Utah’s roads include: drowsy driving, distracted driving, aggressive driving, impaired driving and not buckling up.',
-			direction: 'Partnering efforts must continue to spread the message to Utah drivers about their role in eliminating these preventable crashes. Through communication, education and community outreach we can get everyone to bring the safe driving message home.'
+		'SeniorMobilityandSafety': {
+			title: 'Senior Mobility and Safety',
+			challenge: 'The number of seniors using our transportation system is increasing. Medical conditions, medication usage and reduced physical function can increase the risk of crashes and injury among older adults. Efforts must be made to ensure the mobility, accessibility and safety for this age group.  ',
+			direction: 'Special consideration must be given to improving the highway system to accommodate older drivers and their needs.'
 		},
 		'RoadwayDepartureCrashes': {
 			title: 'Roadway Departure Crashes',
