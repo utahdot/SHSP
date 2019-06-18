@@ -10,7 +10,7 @@ class Home extends Component {
           autoPlay="autoplay"
           muted="muted"
           loop="loop"
-          src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+          src="https://leonelnieto.github.io/video/Strategic%20Direction%20no%20music.mp4"
           type="video/mp4"
         />
         <div className="container h-100">
