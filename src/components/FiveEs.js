@@ -7,7 +7,7 @@ class FiveEs extends Component {
       <div className="m-5">
         <div className="row">
           <div className="col-12 mx-auto">
-            <h3 className="text-center">Five E's</h3>
+            <h1 className="text-center">Five E's </h1>
           </div>
         </div>
         <div className="row">

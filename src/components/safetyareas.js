@@ -7,6 +7,7 @@ class safetyareas extends Component {
         <div className="row">
           <div className="col-12">
             <h1 className="text-center">Safety Areas</h1>
+			<p> &nbsp;</p>
           </div>
         </div>
         <div className="row">

@@ -88,14 +88,16 @@ class Continuing extends Component {
 				<p className="card-text">
 				  {p.desc}
 				</p>
+			  </div>
+			  <div className="card-footer">
 				<NavLink className="btn btn-outline-primary" to={"/continuing/" + p.url}>
-				  {p.title}
+				  Learn more
 				</NavLink>
 			  </div>
 			</div>
 		  </div>
 		);
-		if (i % 4 === 3) {
+		if (i % 3 === 2) {
 			acc.push(<div className="row d-flex justify-content-center text-center">{rowContents}</div>);
 			rowContents = [];
 		}
@@ -107,7 +109,7 @@ class Continuing extends Component {
       <div>
         <div className="row">
           <div className="col-12 mx-4">
-            <h3 className="text-center">Continuing Safety Areas</h3>
+            <h1 className="text-center">Continuing Safety Areas</h1>
           </div>
         </div>
         <div className="row">
