@@ -6,10 +6,10 @@ class Emphasis extends Component {
 	  
 	const data = [
     	{
-			title: 'Aggresive Driving',
+			title: 'Aggressive Driving',
 			desc: 'Continue or increase efforts to fund aggressive driving enforcement and educational campaigns.',
 			fig_url: 'img/aggresive-driving.png',
-			url: 'AggreasiveDriving'
+			url: 'AggressiveDriving'
 		},    	
 		{
 			title:'Distracted Driving',
@@ -96,13 +96,13 @@ class Emphasis extends Component {
 				alt={p.title}
 			  />
 			  <div className="card-body">
-				<h5 className="card-title">{p.title}</h5>
+				<h5 className="card-title font-weight-bold">{p.title}</h5>
 				<p className="card-text">
 				  {p.desc}
 				</p>
 			  </div>
 			  <div className="card-footer">
-				<NavLink className="btn btn-outline-primary" to={"/emphasis/" + p.url}>
+				<NavLink className="btn btn-outline-danger" to={"/emphasis/" + p.url}>
 				  Learn more
 				</NavLink>
 			  </div>
@@ -121,8 +121,8 @@ class Emphasis extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col-12 mx-4">
-            <h1 className="text-center">Emphasis Safety Areas</h1>
+          <div className="col-12 mx-4 my-4">
+            <h1 className="text-center text-danger text-uppercase">Emphasis Safety Areas</h1>
           </div>
         </div>
         <div className="row">

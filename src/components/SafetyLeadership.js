@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class SafetyLeadership extends Component {
   render() {
     return (
-      <div className="m-5">
+      <div className="mx-4">
         <div className="row">
-          <div className="col-12">
-            <h1 className="text-center">Safety Leadership</h1>
+          <div className="col-12 my-4">
+            <h1 className="text-center text-danger text-uppercase">Safety Leadership</h1>
           </div>
         </div>
         <div className="row">
@@ -64,8 +64,8 @@ class SafetyLeadership extends Component {
               <li>Confederated Tribe of Goshute</li>
               <li>Federal Railroad Administration</li>
               <li>Federal Transit Administration</li>
-              <li clasName="text-danger">FHWA</li>
-              <li clasName="text-danger">FMCSA</li>
+              <li className="text-danger">FHWA</li>
+              <li className="text-danger">FMCSA</li>
               <li>Intermountain Healthcare</li>
               <li>Local Health Departments</li>
               <li>Local Technical Assistance Program (LTAP)</li>
@@ -80,7 +80,7 @@ class SafetyLeadership extends Component {
               </li>
               <li>Navajo Nation</li>
               <li>New Car Dealers Association</li>
-              <li clasName="text-danger">NHTSA</li>
+              <li className="text-danger">NHTSA</li>
               <li>Northwestern Band of Shoshone Nation</li>
               <li>Operation Lifesaver Utah</li>
               <li>Paiute Tribes of Utah</li>
@@ -107,12 +107,12 @@ class SafetyLeadership extends Component {
               <li>U of U Data Group</li>
               <li>UDOH, Environment, Policy, and Improved Clinical Care Program (EPICC)</li>
               <li>UDOH, Bureau of EMS and Preparedness</li>
-              <li clasName="text-danger">UDOH, Bureau of EMS and Preparedness</li>
-              <li clasName="text-danger">UDOH, Violence and Injury Prevention Program</li>
-              <li clasName="text-danger">UDOT, Motor Carrier Division</li>
-              <li clasName="text-danger">UDOT, Traffic and Safety Division</li>
-              <li clasName="text-danger">UDPS, Utah Highway Patrol</li>
-              <li clasName="text-danger">UDPS, Highway Safety Office</li>
+              <li className="text-danger">UDOH, Bureau of EMS and Preparedness</li>
+              <li className="text-danger">UDOH, Violence and Injury Prevention Program</li>
+              <li className="text-danger">UDOT, Motor Carrier Division</li>
+              <li className="text-danger">UDOT, Traffic and Safety Division</li>
+              <li className="text-danger">UDPS, Utah Highway Patrol</li>
+              <li className="text-danger">UDPS, Highway Safety Office</li>
               <li>University of Utah Healthcare</li>
               <li>Utah Chiefs of Police Association</li>
               <li>Utah Department of Alcoholic Beverage Control</li>

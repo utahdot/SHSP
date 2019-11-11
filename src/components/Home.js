@@ -1,18 +1,14 @@
 import React, { Component } from "react";
 
+
 class Home extends Component {
   render() {
     return (
       <header>
-        <div className="overlay" />
-        <video
-          playsInline="playsinline"
-          autoPlay="autoplay"
-          muted="muted"
-          loop="loop"
-          src="https://leonelnieto.github.io/video/Strategic%20Direction%20no%20music.mp4"
-          type="video/mp4"
-        />
+        <div className="overlay" >
+        <iframe src="https://player.vimeo.com/video/371197834?background=1&autoplay=1&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <div className="container h-100">
           <div className="d-flex h-100 align-items-center">
             <div className="container col-8 justify-content-center text-dark bg-light rounded">

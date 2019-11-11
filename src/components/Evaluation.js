@@ -6,10 +6,10 @@ import ReduceFatalities from "./charts/ReduceFatalities";
 class Evaluation extends Component {
   render() {
     return (
-      <div className="m-5">
+      <div className="mx-5">
         <div className="row">
-          <div className="col-12 mb-3">
-            <h1 className="text-center">Evaluation</h1>
+          <div className="col-12 my-4">
+            <h1 className="text-center text-danger text-uppercase">Evaluation</h1>
           </div>
         </div>
         <div className="row mb-3">

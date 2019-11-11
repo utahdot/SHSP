@@ -3,16 +3,15 @@ import React, { Component } from "react";
 class safetyareas extends Component {
   render() {
     return (
-      <div className="m-5">
+      <div className="mx-4">
         <div className="row">
-          <div className="col-12">
-            <h1 className="text-center">Safety Areas</h1>
-			<p> &nbsp;</p>
+          <div className="col-12 my-4">
+            <h1 className="text-center text-danger text-uppercase">Safety Areas</h1>
           </div>
         </div>
         <div className="row">
           <div className="col-6 mb-4">
-            <h2 className="text-center">Part 1 - Emphasis Safety Areas </h2>
+            <h2 className="text-danger">Part 1 - Emphasis Safety Areas </h2>
 			<p>
 				In Part 1, there are 12 programs listed that will be
 				given added attention and emphasis in the safety
@@ -33,7 +32,7 @@ class safetyareas extends Component {
 			</p>
           </div>
           <div className="col-6 mb-4">
-            <h2 className="text-center">Part 2 - Continuing Safety Areas </h2>
+            <h2 className="text-danger">Part 2 - Continuing Safety Areas </h2>
 			<p>
 				The programs contained in Part 3 represent
 				opportunities for the safety community to enhance
@@ -51,6 +50,7 @@ class safetyareas extends Component {
 					<li>Traffic Incident Management</li>
 					<li>Traffic Data</li>
 					<li>Judicial System</li>
+					<li>Drowsy Driving</li>
 				</ul>
 			</p>
           </div>

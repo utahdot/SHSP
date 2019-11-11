@@ -56,9 +56,10 @@ class App extends Component {
 				<Route exact path="/continuing/TrafficIncidentManagement" render={(props) => <Continuing_components {...props} area='TrafficIncidentManagement' />} />
 				<Route exact path="/continuing/TrafficData" render={(props) => <Continuing_components {...props} area='TrafficData' />} />
 				<Route exact path="/continuing/JudicialSystem" render={(props) => <Continuing_components {...props} area='JudicialSystem' />} />
+				<Route exact path="/continuing/DrowsyDriving" render={(props) => <Continuing_components {...props} area='DrowsyDriving' />} />
 				
                 <Route exact path="/emphasis" component={Emphasis} />
-				<Route exact path="/emphasis/AggreasiveDriving" render={(props) => <Emphasis_components {...props} area='AggreasiveDriving' />} />
+				<Route exact path="/emphasis/AggressiveDriving" render={(props) => <Emphasis_components {...props} area='AggressiveDriving' />} />
 				<Route exact path="/emphasis/DistractedDriving" render={(props) => <Emphasis_components {...props} area='DistractedDriving' />} />
 				<Route exact path="/emphasis/ImpairedDriving" render={(props) => <Emphasis_components {...props} area='ImpairedDriving' />} />
 				<Route exact path="/emphasis/MotorcycleSafety" render={(props) => <Emphasis_components {...props} area='MotorcycleSafety' />} />

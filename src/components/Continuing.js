@@ -71,6 +71,12 @@ class Continuing extends Component {
 			fig_url: 'img/Continuing safety areas/traffic-incident-management.jpg',
 			url: 'JudicialSystem'
 		},
+		{
+			title:'Drowsy Driving',
+			desc:'Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes.',
+			fig_url: 'img/drowsy-driving.png',
+			url: 'DrowsyDriving'
+		},
     ];
 	
 	let rowContents = [];
@@ -84,13 +90,13 @@ class Continuing extends Component {
 				alt={p.title}
 			  />
 			  <div className="card-body">
-				<h5 className="card-title">{p.title}</h5>
+				<h5 className="card-title font-weight-bold">{p.title}</h5>
 				<p className="card-text">
 				  {p.desc}
 				</p>
 			  </div>
 			  <div className="card-footer">
-				<NavLink className="btn btn-outline-primary" to={"/continuing/" + p.url}>
+				<NavLink className="btn btn-outline-danger" to={"/continuing/" + p.url}>
 				  Learn more
 				</NavLink>
 			  </div>
@@ -108,12 +114,12 @@ class Continuing extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col-12 mx-4">
-            <h1 className="text-center">Continuing Safety Areas</h1>
+          <div className="col-12 mx-4 my-4">
+            <h1 className="text-center text-danger text-uppercase">Continuing Safety Areas</h1>
           </div>
         </div>
         <div className="row">
-          <div className="col-12 mx-4 text-center">
+          <div className="col-12 mx-4 text-center justify-content">
             <p>
               Continuing safety areas address programs or processes currently underway within the safety agencies. These programs will continue to be supported and enhanced.
             </p>
