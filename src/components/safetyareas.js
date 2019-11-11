@@ -3,12 +3,12 @@ import React, { Component } from "react";
 class safetyareas extends Component {
   render() {
     return (
-      <div className="mx-4">
-        <div className="row">
-          <div className="col-12 my-4">
-            <h1 className="text-center text-danger text-uppercase">Safety Areas</h1>
-          </div>
+      <div className="highlight-bar-top">
+        <div className="page-header">
+          <h1 className="text-center text-uppercase">Safety Areas</h1>
         </div>
+      <div className="main-content">
+
         <div className="row">
           <div className="col-6 mb-4">
             <h2 className="text-danger">Part 1 - Emphasis Safety Areas </h2>
@@ -55,6 +55,7 @@ class safetyareas extends Component {
 			</p>
           </div>
         </div>
+      </div>
       </div>
     );
   }

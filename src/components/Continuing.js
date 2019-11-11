@@ -3,20 +3,20 @@ import { NavLink } from "react-router-dom";
 
 class Continuing extends Component {
   render() {
-	
+
 	const data = [
     	{
 			title: 'Bicycle Safety',
 			desc: 'Continue addressing bicycle user needs on transportation facilities. Increase efforts for bicyclist and motorist education.',
 			fig_url: 'img/Continuing safety areas/bicycle-safety.jpg',
 			url: 'BicycleSafety'
-		},  
+		},
 		{
 			title:'Commercial Motor Vehicle Safety',
 			desc:'Sustain efforts to reduce commercial vehicle serious injuries and fatal crashes. The Federal Motor Carriers Safety Administration, UDOT’s Motor Carrier Division and the Utah Highway Patrol oversee all safety issues in Utah.',
 			fig_url: 'img/Continuing safety areas/commercial-motor-vehicle-safety.jpg',
 			url: 'CommercialMotorVehicleSafety'
-		},		
+		},
 		{
 			title:'Highway Railroad Crossing Safety',
 			desc:'Continue efforts to reduce crashes at highway railroad crossings through education, engineering, and enforcement.',
@@ -78,29 +78,31 @@ class Continuing extends Component {
 			url: 'DrowsyDriving'
 		},
     ];
-	
+
 	let rowContents = [];
 	const contents = data.reduce((acc, p, i) => {
 		rowContents.push(
-		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
-			<div className="card h-100">
-			  <img
-				className="card-img-top"
-				src={p.fig_url}
-				alt={p.title}
-			  />
-			  <div className="card-body">
-				<h5 className="card-title font-weight-bold">{p.title}</h5>
-				<p className="card-text">
-				  {p.desc}
-				</p>
-			  </div>
-			  <div className="card-footer">
-				<NavLink className="btn btn-outline-danger" to={"/continuing/" + p.url}>
-				  Learn more
-				</NavLink>
-			  </div>
-			</div>
+      <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
+        <div className="card h-100 highlight-bar-top">
+          <div className="card-top">
+              <img
+              className="card-img-top"
+              src={p.fig_url}
+              alt={p.title}
+              />
+          </div>
+	        <div className="card-body">
+    				<h5 className="card-title font-weight-bold">{p.title}</h5>
+    				<p className="card-text">
+    				  {p.desc}
+    				</p>
+    			  </div>
+    			  <div className="card-footer">
+    				<NavLink className="btn btn-outline-danger" to={"/continuing/" + p.url}>
+    				  Learn more
+    				</NavLink>
+  			  </div>
+  			</div>
 		  </div>
 		);
 		if (i % 3 === 2) {
@@ -110,24 +112,23 @@ class Continuing extends Component {
 		return acc;
 	},[])
 	contents.push(<div className="row d-flex justify-content-center text-center">{rowContents}</div>);
-	
-    return (
-      <div>
-        <div className="row">
-          <div className="col-12 mx-4 my-4">
-            <h1 className="text-center text-danger text-uppercase">Continuing Safety Areas</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 mx-4 text-center justify-content">
-            <p>
-              Continuing safety areas address programs or processes currently underway within the safety agencies. These programs will continue to be supported and enhanced.
-            </p>
-          </div>
-        </div>
-		
-		{contents}
 
+    return (
+      <div className="highlight-bar-top">
+        <div className="page-header">
+          <h1 className="text-center text-uppercase">Emphasis Safety Areas</h1>
+        </div>
+        <div className="main-content wide">
+          <div className="row">
+            <div className="col-12 mx-4 text-center justify-content">
+              <p>
+                Continuing safety areas address programs or processes currently underway within the safety agencies. These programs will continue to be supported and enhanced.
+              </p>
+            </div>
+          </div>
+
+      		{contents}
+        </div>
       </div>
     );
   }

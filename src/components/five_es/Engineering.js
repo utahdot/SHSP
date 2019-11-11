@@ -3,17 +3,11 @@ import React, { Component } from "react";
 class Engineering extends Component {
   render() {
     return (
-      <div className="m-5">
-        <div className="row">
-          <div className="col-12">
-            <h1 className="text-center">Engineering</h1>
-          </div>
+      <div className="highlight-bar-top">
+        <div className="page-header">
+          <h1 className="text-center text-uppercase">Engineering</h1>
         </div>
-        <div className="row">
-          <div className="col-12 mb-3 text-center">
-            <img src="img/mvw.jpg" alt="Mountain View Corridor" />
-          </div>
-        </div>
+      <div className="main-content">
         <div className="row">
           <div className="col-12">
             <p>
@@ -21,6 +15,7 @@ class Engineering extends Component {
             </p>
           </div>
         </div>
+      </div>
       </div>
     );
   }

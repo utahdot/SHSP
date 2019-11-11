@@ -3,20 +3,20 @@ import { NavLink } from "react-router-dom";
 
 class Emphasis extends Component {
   render() {
-	  
+
 	const data = [
     	{
 			title: 'Aggressive Driving',
 			desc: 'Continue or increase efforts to fund aggressive driving enforcement and educational campaigns.',
 			fig_url: 'img/aggresive-driving.png',
 			url: 'AggressiveDriving'
-		},    	
+		},
 		{
 			title:'Distracted Driving',
 			desc:'Reduce the number of serious injury and fatal crashes related to driver distraction.',
 			fig_url: 'img/distracted-driving.png',
 			url: 'DistractedDriving'
-		},    	
+		},
 /* 		{
 			title:'Drowsy Driving',
 			desc:'Maintain efforts to reduce drowsy driving-related serious injury and fatal crashes.',
@@ -84,29 +84,31 @@ class Emphasis extends Component {
 			url: 'SeniorMobilityandSafety'
 		},
     ];
-	
+
 	let rowContents = [];
 	const contents = data.reduce((acc, p, i) => {
 		rowContents.push(
 		  <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
-			<div className="card h-100">
-			  <img
-				className="card-img-top"
-				src={p.fig_url}
-				alt={p.title}
-			  />
-			  <div className="card-body">
-				<h5 className="card-title font-weight-bold">{p.title}</h5>
-				<p className="card-text">
-				  {p.desc}
-				</p>
-			  </div>
-			  <div className="card-footer">
-				<NavLink className="btn btn-outline-danger" to={"/emphasis/" + p.url}>
-				  Learn more
-				</NavLink>
-			  </div>
-			</div>
+  			<div className="card h-100 highlight-bar-top">
+          <div className="card-top">
+      			  <img
+      				className="card-img-top"
+      				src={p.fig_url}
+      				alt={p.title}
+      			  />
+          </div>
+  			  <div className="card-body">
+    				<h5 className="card-title font-weight-bold">{p.title}</h5>
+    				<p className="card-text">
+    				  {p.desc}
+    				</p>
+    			  </div>
+    			  <div className="card-footer">
+      				<NavLink className="btn btn-outline-danger" to={"/emphasis/" + p.url}>
+      				  Learn more
+      				</NavLink>
+  			  </div>
+  			</div>
 		  </div>
 		);
 		if (i % 3 === 2) {
@@ -116,15 +118,15 @@ class Emphasis extends Component {
 		return acc;
 	},[])
 	contents.push(<div className="row d-flex justify-content-center text-center">{rowContents}</div>);
-	
-	
+
+
     return (
-      <div>
-        <div className="row">
-          <div className="col-12 mx-4 my-4">
-            <h1 className="text-center text-danger text-uppercase">Emphasis Safety Areas</h1>
-          </div>
+
+      <div className="highlight-bar-top">
+        <div className="page-header">
+          <h1 className="text-center text-uppercase">Emphasis Safety Areas</h1>
         </div>
+        <div className="main-content wide">
         <div className="row">
           <div className="col-12 mx-4 text-center">
             <p>
@@ -134,9 +136,10 @@ class Emphasis extends Component {
             </p>
           </div>
         </div>
-		
-		{contents}		
-        
+
+		{contents}
+
+      </div>
       </div>
     );
   }

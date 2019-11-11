@@ -3,17 +3,11 @@ import React, { Component } from "react";
 class SafetyLeadership extends Component {
   render() {
     return (
-      <div className="mx-4">
-        <div className="row">
-          <div className="col-12 my-4">
-            <h1 className="text-center text-danger text-uppercase">Safety Leadership</h1>
-          </div>
+      <div className="highlight-bar-top">
+        <div className="page-header">
+          <h1 className="text-center text-uppercase">Safety Leadership</h1>
         </div>
-        <div className="row">
-          <div className="col-12 mb-5 text-center">
-            <img src="img/mvw.jpg" alt="Mountain View Corridor" />
-          </div>
-        </div>
+      <div className="main-content wide">
         <div className="row">
           <div className="col-6 mb-4">
             <h2 className="text-center">Utah Safety <br />Leadership <span className="text-danger">Executive Committee</span></h2>
@@ -136,6 +130,7 @@ class SafetyLeadership extends Component {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     );
   }

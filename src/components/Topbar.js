@@ -8,7 +8,7 @@ class Topbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand navbar-light bg-gradient-udot-dark topbar static-top shadow">
+      <nav className="navbar navbar-expand navbar-light bg-udot-block topbar static-top shadow">
         <div className="container-fluid">
           <button
             id="sidebarToggleTop"

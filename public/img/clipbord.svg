@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.99 11.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #adb0b5;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #42464d;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 1.27px;
+      }
+
+      .cls-3 {
+        fill: #42464d;
+      }
+    </style>
+  </defs>
+  <title>clipbord</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" y="1.23" width="8.99" height="10.6"/>
+        <polyline class="cls-2" points="6.62 5.03 3.71 7.94 2.37 6.59"/>
+        <circle class="cls-1" cx="4.49" cy="1.23" r="1.23"/>
+        <circle class="cls-3" cx="4.49" cy="1.23" r="0.51"/>
+      </g>
+    </g>
+  </g>
+</svg>

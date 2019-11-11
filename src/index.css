@@ -15,7 +15,7 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #e74a3b;
+  --red: #ed1c24;
   --orange: #fd7e14;
   --yellow: #f6c23e;
   --green: #1cc88a;
@@ -37,7 +37,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xxl: 1200px;
-  --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont,
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
@@ -5180,8 +5180,8 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid #e3e6f0;
-  border-radius: 0.35rem;
+  border:0;
+  border-radius: 0;
 }
 
 .card > hr {
@@ -5244,8 +5244,9 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #f8f9fc;
-  border-top: 1px solid #e3e6f0;
+  background-color: #fff;
+  border: 0px solid #e3e6f0;
+
 }
 
 .card-footer:last-child {
@@ -5280,8 +5281,20 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.35rem - 1px);
-  border-top-right-radius: calc(0.35rem - 1px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 300ms ease;
+}
+
+.card-top{
+  max-height: 150px;
+  overflow: hidden;
+}
+.card:hover .card-img-top {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
 }
 
 .card-img-bottom {
@@ -11458,17 +11471,11 @@ a:focus {
   background-image: linear-gradient(180deg, #6666ff 10%, #5a87c5 100%);
   background-size: cover;
 }
+.highlight-bar-top{
+  border-top:10px solid var(--red);
+}
 .bg-gradient-udot-dark {
   background-color: #343a40;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(10%, #515051),
-    to(#343a40)
-  );
-  background-image: linear-gradient(180deg, #515051 10%, #343a40 100%);
-  background-size: cover;
 }
 .bg-gradient-success {
   background-color: #1cc88a;
@@ -11860,7 +11867,8 @@ a:focus {
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link {
-  color: #d1d3e2;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
@@ -11886,7 +11894,7 @@ a:focus {
 
 .sidebar .nav-item .nav-link {
   text-align: center;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.5rem;
   width: 6.5rem;
 }
 
@@ -12020,7 +12028,7 @@ a:focus {
 }
 
 .sidebar hr.sidebar-divider {
-  margin: 0 1rem 1rem;
+  margin: 0 8px ;
 }
 
 .sidebar .sidebar-heading {
@@ -12131,7 +12139,7 @@ a:focus {
   }
   .sidebar.toggled .nav-item .nav-link {
     text-align: center;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.5rem;
     width: 6.5rem;
   }
   .sidebar.toggled .nav-item .nav-link span {
@@ -12878,7 +12886,9 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-image: url('/img/main_background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
   opacity: 0.5;
   z-index: 1;
 }
@@ -12911,4 +12921,131 @@ header .overlay iframe {
 
 .force-top {
   z-index: 1000000 !important;
+}
+.bg-udot-block{
+  background-color:#000;
+}
+.utah_logo{
+  max-width: 50px;
+  display: block;
+  margin:50px auto 20px;
+}
+
+.uppercase{
+  text-transform: uppercase;;
+}
+
+.version{
+  color:#adb0b5;
+  margin:50px auto;
+}
+
+.svg_light {
+  fill: #adb0b5;
+}
+
+.executive .cls-2 {
+  fill: none;
+  stroke: #42464d;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+  stroke-width: 0.68px;
+}
+
+
+.five_e .svg_light{
+  stroke: #42464d;
+  stroke-miterlimit: 10;
+  stroke-width: 0.52px;
+}
+
+.five_e .cls-2 {
+  font-size: 7.7px;
+  fill: #42464d;
+  font-family: ProximaNova-Extrabld, ProximaNova Extrabld;
+  letter-spacing: 0.08em;
+}
+
+.evaluation .cls-2 {
+    fill: none;
+    stroke: #42464d;
+    stroke-linecap: square;
+    stroke-miterlimit: 10;
+    stroke-width: 1.27px;
+  }
+
+.evaluation  .cls-3 {
+  fill: #42464d;
+}
+
+.nav-icon{
+  width:20px;
+  margin:10px auto;
+}
+
+.five_e{
+  width:25px;
+}
+
+.leadership{
+  width:30px;
+}
+
+.sidebar .nav-link{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn{
+  border-color:var(--red);
+  color:var(--red);
+  border-radius:30px;
+  border-width:2px;
+  font-family: "Lato";
+  padding-left:20px;
+  padding-right:20px;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background-color:var(--red);
+  border-color:var(--red);
+}
+
+.card-title{
+  color:var(--red);
+  text-transform: uppercase;
+}
+
+.card .btn{
+  margin-bottom: 30px;
+}
+
+.nav-link:hover .svg_light, .nav-link.active, .nav-link.active .svg_light{
+  fill: rgba(255, 255, 255, 0.8);
+  color:rgba(255, 255, 255, 0.8);
+  transition: all 300ms ease;
+}
+
+.page-header{
+  background-image:url('/img/header_image.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:100px;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.page-header h1{
+  font-weight: bold;
+  font-size:50px;
+  letter-spacing: 10px;
+}
+
+.main-content{
+  max-width:1200px;
+  margin:50px auto;
+  line-height: 2em;
+}
+.main-content.wide{
+  max-width: none;
 }
