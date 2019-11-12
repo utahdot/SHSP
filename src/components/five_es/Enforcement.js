@@ -11,7 +11,14 @@ class Enforcement extends Component {
           <div className="row">
             <div className="col-12">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Along with safety education
+                programs and safer transportation systems, enforcement is needed to remind
+                people of the laws associated with the use of our
+                roadway network. State, county, and municipal
+                law enforcement agencies statewide work
+                alongside highway safety partnering agencies to
+                enforce Utah’s traffic laws during regular patrols,
+                as well as specialized mobilization efforts.
               </p>
             </div>
           </div>

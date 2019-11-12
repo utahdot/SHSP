@@ -11,7 +11,13 @@ class Engineering extends Component {
         <div className="row">
           <div className="col-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              The focus on safety within engineering begins
+              with designing, building and maintaining safer transportation systems.
+              Transportation professionals use design principles
+              that have been proven to be safe and reliable.
+              National standards are used to provide consistency for the traveling
+              public. Transportation professionals continue to look for
+              new and innovative ways to improve roadway safety.
             </p>
           </div>
         </div>

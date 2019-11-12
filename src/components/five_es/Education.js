@@ -11,7 +11,13 @@ class Edcuation extends Component {
           <div className="row">
             <div className="col-12">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Education plays a key role in helping the public
+                understand what they should and should not
+                do when driving. Increased education leads to
+                a change in behavior and, ultimately, a change in our culture, leading to a decline in
+                fatalities on our roads. Education efforts are
+                directed toward all age groups and numerous
+                safety issues.
               </p>
             </div>
           </div>

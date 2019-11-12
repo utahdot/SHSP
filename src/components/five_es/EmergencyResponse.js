@@ -11,7 +11,18 @@ class EmergencyResponse extends Component {
           <div className="row">
             <div className="col-12">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Swift response from emergency teams can save lives. The emergency medical services system includes trained dispatchers that ensure the right resources arrive to provide care and address safety at the scene. Emergency medical personnel affiliated with fire, ambulance services and public safety provide seamless emergency health care and serve as the system's first responders. They ensure the patients are triaged, treated and transported to hospital who serve as the first receivers for definitive life saving care.
+              </p>
+              <p>
+                Trained dispatchers ensure the right
+                resources arrive to provide care and address
+                safety at the scene. Emergency medical response
+                teams provide life saving health care and ensure
+                the patients are transported to the facility that
+                best meets the needs of the patients. Public
+                safety responders clear roadways, thereby
+                reducing the risk of more crashes as
+                a result of unexpected traffic conditions.
               </p>
             </div>
           </div>

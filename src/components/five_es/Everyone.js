@@ -11,7 +11,9 @@ class Everyone extends Component {
           <div className="row">
             <div className="col-12">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The key to reaching zero fatalities is bigger than any one group. It’s bigger than engineering, enforcement, education, and emergency response alone. Everyone is needed in order to make a difference, and we all need to work together if we
+                are going to reach Zero Fatalities. Everyone is the
+                most important “E” in traffic safety.
               </p>
             </div>
           </div>
