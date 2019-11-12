@@ -9,6 +9,18 @@
             <h1 className="text-center text-uppercase">The Five E's</h1>
           </div>
         <div className="main-content wide">
+          <div className="row mb-3">
+            <div className="col-12">
+              <p>
+                The Utah Strategic Highway Safety Plan strategies are focused on engineering,
+                education, emergency response and enforcement efforts. Each discipline has
+                a unique direction to improve safety while being strongly connected to the
+                others. However, while these are the main elements to improving traffic safety
+                on our roads, there is one key element that is missing. It’s what we’ll call the
+                fifth E: Everyone.
+              </p>
+            </div>
+          </div>
           <br/>
           <div className="row d-flex justify-content-center text-center">
             <div className="col-xxl-3 mb-xxl-5 col-xl-6 mb-xl-5 col-12 mb-4 border-0">
